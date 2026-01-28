@@ -37,7 +37,10 @@ The admissible structure necessarily decomposes into a **constraint (longitudina
 ## Structural corollaries (under symmetry reduction)
 
 **Galaxies**
-- BTFR: \( M_b \propto V^4 \)  
+- $$
+M_b \propto V^4
+$$
+BTFR: \( M_b \propto V^4 \)  
 - RAR / MDA: fixed-slope acceleration scaling (see paper)
 
 **Cosmology**
