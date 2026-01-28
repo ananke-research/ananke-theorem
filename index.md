@@ -33,7 +33,8 @@ They eliminate external bookkeeping, phenomenological supplements, and unrestric
 
 ---
 
-## Unique action (schematic)
+## Unique action (schematic) 
+
 
 $$
 \begin{aligned}
@@ -46,7 +47,8 @@ S = \int d^4x\,\sqrt{-g}\,
 \Big]
 + S_{\rm matter}[g,\psi] .
 \end{aligned}
-$$
+$$ 
+
 
 In vacuum, symmetry and conservation force the redistributive sector to vanish identically, reducing gravity to pure constraint geometry.  
 Beyond vacuum, when the constraint mode alone is insufficient for closure, a single orthogonal redistributive mode is activated, enforcing closure through conserved redistribution rather than additional sources.
