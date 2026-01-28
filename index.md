@@ -49,8 +49,7 @@ $$
 
 **Cosmology**
 - Pressureless scaling:
-$$
-\rho \propto a^{-3}
+ρ ∝ a⁻³
 
 These are ordinarily attributed to **dark matter** and **dark energy** in \(\Lambda\)CDM.  
 Where \(\Lambda\)CDM and modified-gravity models typically introduce additional fields, free functions, or tuning, the Ananke theorem derives the above as consequences of **structural closure**.
