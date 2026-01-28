@@ -52,7 +52,7 @@ $$
 ρ ∝ a⁻³
 
 These are ordinarily attributed to **dark matter** and **dark energy** in ΛCDM.  
-Where ΛCDM and modified-gravity models typically introduce additional fields, free functions, or tuning, the Ananke theorem derives the above as consequences of **structural closure**.
+Where ΛCDM and modified-gravity models typically introduce additional fields, free functions, or tuning, the Ananke Theorem derives the above as consequences of **structural closure**.
 
 ---
 
