@@ -26,8 +26,6 @@ It asks what gravitational field structure is admissible *in principle* when gra
 - **Single non-vacuum residual DOF:**  
   Outside vacuum, under sufficient symmetry reduction, closure admits **exactly one** conserved residual degree of freedom. No further independent degrees of freedom are admissible.
 
----
-
 ## Unique action (schematic)
 
 $$
