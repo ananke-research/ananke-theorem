@@ -1,4 +1,3 @@
-
 # The Ananke (Gravitational Closure) Theorem
 
 **A structural classification of admissible classical gravity**
@@ -64,7 +63,7 @@ Without introducing dark matter or dark energy *as substances*, the closure fram
 
 - GR is exact and unmodified in vacuum and high-acceleration regimes.
 - Galaxy-scale regularities (BTFR, RAR/MDA) arise as algebraic consequences of a single residual degree of freedom under stationarity and symmetry.
-- Homogeneous cosmology admits a unique pressureless a-3 scaling as a structural consequence of closure, not an assumption.
+- Homogeneous cosmology admits a unique pressureless \( a^{-3} \) scaling as a structural consequence of closure, not an assumption.
 - A single conserved integration constant appears across non-vacuum symmetry-reduced regimes, while no such constant is permitted in vacuum.
 
 These results are **classification results**, not curve fits.
@@ -83,10 +82,30 @@ The theorem is conditional and structural:
 
 ---
 
-## 5. Repository Structure
+## 5. Papers (Zenodo DOIs)
+
+The formal results associated with this project are archived on Zenodo with permanent DOIs:
+
+- **The Fundamental Fields Theorem**  
+  https://zenodo.org/records/18387035
+
+- **The Ananke (Gravitational Closure) Theorem**  
+  https://zenodo.org/records/18387510
+
+- **Structural Diagnostics of Gravitational Closure**  
+  https://zenodo.org/records/18387629
+
+- **Phenomenological Consequences of the Ananke Theorem**  
+  https://zenodo.org/records/18387544
+
+These documents constitute the citable, frozen statements of the framework.
+
+---
+
+## 6. Repository Structure
 
 - `papers/`  
-  Formal manuscripts (Ananke Theorem, diagnostics, phenomenology)
+  Manuscripts and supplementary material corresponding to the Zenodo records
 
 - `docs/`  
   Explanatory notes, figures, and regime summaries used by the website  
@@ -96,9 +115,9 @@ Major results are versioned and changes are tracked via Git history.
 
 ---
 
-## 6. Logical Status
+## 7. Logical Status
 
-The Ananke Theorem proceeds **deductively**.
+The Ananke framework proceeds **deductively**.
 
 - No observational inputs are used in the classification.
 - No parameters are fitted.
@@ -110,14 +129,14 @@ Violation of a structural necessity falsifies closure itself.
 
 ---
 
-## 7. Archival Status and Citation
+## 8. Archival Status and Citation
 
-Formal papers associated with this project are archived on Zenodo and assigned permanent DOIs.  
-This repository serves as the canonical working and reference space for the framework and its ongoing development.
+Zenodo DOIs provide the permanent archival record for the formal papers.  
+This GitHub repository serves as the canonical working and reference space for the framework and its ongoing development.
 
 ---
 
-## 8. Contact
+## 9. Contact
 
 **Simon F. Gates**  
 Independent Researcher  
@@ -125,7 +144,7 @@ Email: simonfgates@gmail.com
 
 ---
 
-## 9. License
+## 10. License
 
 All original text and code in this repository are released under the MIT License unless otherwise stated.
 
