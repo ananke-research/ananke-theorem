@@ -35,11 +35,13 @@ The admissible structure necessarily decomposes into a **constraint (longitudina
 
 $$
 \begin{aligned}
-S \;=\;& \frac{1}{16\pi G}\int d^4x\,\sqrt{-g}\;R
-\;+\;\int d^4x\,\sqrt{-g}\;\frac{1}{2}\,\nabla_\mu\phi\,\nabla^\mu\phi \\
-&-\;\frac{1}{4}\int d^4x\,\sqrt{-g}\;F_{\mu\nu}F^{\mu\nu}
-\;+\;\int d^4x\,\sqrt{-g}\;\lambda\,\nabla_\mu(\phi\,u^\mu)
-\;+\;S_{\mathrm{matter}}[g,\psi],
+S \;=\;& \frac{1}{16\pi G}\int d^4x\,\sqrt{-g}\,R
+\;+\;\int d^4x\,\sqrt{-g}\,\frac{1}{2}\,\nabla_\mu\phi\,\nabla^\mu\phi \\
+&+\;\Bigg[
+-\;\frac{1}{4}\int d^4x\,\sqrt{-g}\,F_{\mu\nu}F^{\mu\nu}
+\;+\;\int d^4x\,\sqrt{-g}\,\lambda\,\nabla_\mu(\phi\,u^\mu)
+\;+\;S_{\mathrm{matter}}[g,\psi]
+\Bigg],
 \end{aligned}
 $$
 
@@ -49,7 +51,6 @@ A_\mu := \phi\,u_\mu,
 \qquad
 F_{\mu\nu} := \nabla_\mu A_\nu-\nabla_\nu A_\mu.
 $$
-
 
 ---
 
