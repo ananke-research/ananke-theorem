@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <!-- index.md (minimal landing page, with logical sequence + diagnostics placed correctly) -->
 
 # Ananke (Gravitational Closure) Theorem
@@ -37,14 +38,19 @@ The admissible structure necessarily decomposes into a **constraint (longitudina
 ## Structural corollaries (under symmetry reduction)
 
 **Galaxies**
-- $$
+- BTFR:
+$$
 M_b \propto V^4
 $$
-BTFR: \( M_b \propto V^4 \)  
-- RAR / MDA: fixed-slope acceleration scaling (see paper)
+- RAR (Newtonian + correction):
+$$
+g_{\rm obs}\ =\ g_{\rm bar}\ +\ C\,g_{\rm bar}^{-1/2}
+$$
 
 **Cosmology**
-- Pressureless scaling: \( \rho \propto a^{-3} \)
+- Pressureless scaling:
+$$
+\rho \propto a^{-3}
 
 These are ordinarily attributed to **dark matter** and **dark energy** in \(\Lambda\)CDM.  
 Where \(\Lambda\)CDM and modified-gravity models typically introduce additional fields, free functions, or tuning, the Ananke theorem derives the above as consequences of **structural closure**.
@@ -69,10 +75,10 @@ Where \(\Lambda\)CDM and modified-gravity models typically introduce additional 
 
 ## Papers
 
-- Fundamental Fields Theorem — Zenodo DOI: https://zenodo.org/records/18387035 
-- Ananke (Gravitational Closure) Theorem — Zenodo DOI: https://zenodo.org/records/18387510
-- Structural Diagnostics of Gravitational Closure — Zenodo DOI: https://zenodo.org/records/18387629
-- Phenomenological Consequences of the Ananke Theorem — Zenodo DOI: https://zenodo.org/records/18387544
+- Fundamental Fields Theorem — Zenodo DOI: https://zenodo.org/records/18387035  
+- Ananke (Gravitational Closure) Theorem — Zenodo DOI: https://zenodo.org/records/18387510  
+- Structural Diagnostics of Gravitational Closure — Zenodo DOI: https://zenodo.org/records/18387629  
+- Phenomenological Consequences of the Ananke Theorem — Zenodo DOI: https://zenodo.org/records/18387544  
 
 ---
 
