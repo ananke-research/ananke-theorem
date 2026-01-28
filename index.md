@@ -31,7 +31,25 @@ We ask what gravitational structure is admissible *in principle*—specifically,
 The axioms fix a **unique admissible covariant action**, up to boundary terms and invertible local field redefinitions.  
 The admissible structure necessarily decomposes into a **constraint (longitudinal)** sector and an orthogonal **redistributive (transverse)** sector, with interaction fixed by closure and conservation.
 
-(See the theorem paper for the explicit representative action.)
+## Unique action (explicit representative)
+
+$$
+\begin{aligned}
+S \;=\;& \frac{1}{16\pi G}\int d^4x\,\sqrt{-g}\;R
+\;+\;\int d^4x\,\sqrt{-g}\;\frac{1}{2}\,\nabla_\mu\phi\,\nabla^\mu\phi \\
+&-\;\frac{1}{4}\int d^4x\,\sqrt{-g}\;F_{\mu\nu}F^{\mu\nu}
+\;+\;\int d^4x\,\sqrt{-g}\;\lambda\,\nabla_\mu(\phi\,u^\mu)
+\;+\;S_{\mathrm{matter}}[g,\psi],
+\end{aligned}
+$$
+
+with
+$$
+A_\mu := \phi\,u_\mu,
+\qquad
+F_{\mu\nu} := \nabla_\mu A_\nu-\nabla_\nu A_\mu.
+$$
+
 
 ---
 
