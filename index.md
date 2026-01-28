@@ -37,7 +37,6 @@ S \;=\;
 \int d^4x\,\sqrt{-g}\,
 \Big[
 &\underbrace{\mathcal{L}_{\rm EH}(g)}_{\text{metric / geometric response}} \\
-
 &+\;\underbrace{\mathcal{L}_{\rm L}(\phi)}_{\text{longitudinal (constraint)}} \\
 &+\;\underbrace{\mathcal{L}_{\rm T}(A_\mu)}_{\text{transverse (redistributive)}} \\
 &+\;\underbrace{\mathcal{L}_{\rm c}(\lambda,\phi,u^\mu)}_{\text{closure / orthogonality}}
