@@ -13,14 +13,22 @@ The theorem derives a **unique admissible covariant action** from three axioms:
 - quadratic closure with finite conserved energy,
 - orthogonality of response modes.
 
-📄 **Website (full schematic + equations):**  
+**Website (full schematic + equations):**  
 https://ananketheorem.org
 
-📚 **Papers (Zenodo DOIs):**
-- Fundamental Fields Theorem  
-- Ananke (Gravitational Closure) Theorem  
-- Structural Diagnostics of Gravitational Closure  
-- Phenomenological Consequences of the Ananke Theorem
+## Papers
+
+- **Fundamental Fields Theorem**  
+  https://zenodo.org/records/18387035
+
+- **Ananke (Gravitational Closure) Theorem**  
+  https://zenodo.org/records/18387510
+
+- **Structural Diagnostics of Gravitational Closure**  
+  https://zenodo.org/records/18387629
+
+- **Phenomenological Consequences of the Ananke Theorem**  
+  https://zenodo.org/records/18387544
 
 ## Contact
 Simon F. Gates  
