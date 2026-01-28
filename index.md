@@ -91,5 +91,5 @@ Where ΛCDM and modified-gravity models typically introduce additional fields, f
 ## Contact
 
 Simon F. Gates  
-simonfgates@gmail.com
+simonfgates@gmail.com  
 Independent Researcher
