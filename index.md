@@ -4,9 +4,9 @@ layout: default
 
 <!-- index.md (minimal landing page, with logical sequence + diagnostics placed correctly) -->
 
-# Ananke (Gravitational Closure) Theorem
+# The Ananke (Gravitational Closure) Theorem
 
-**The Ananke (Gravitational Closure) Theorem proves a foundational result in classical gravity.**  
+**The Ananke Theorem proves a foundational result in classical gravity.**  
 We ask what gravitational structure is admissible *in principle*—specifically, how many degrees of freedom gravity may admit under closure—and what follows deductively from that requirement.
 
 ---
