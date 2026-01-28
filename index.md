@@ -2,109 +2,84 @@
 layout: default
 ---
 
-<!-- index.md (minimal landing page, with logical sequence + diagnostics placed correctly) -->
+# Ananke (Gravitational Closure) Theorem
 
-# The Ananke (Gravitational Closure) Theorem
-
-**The Ananke Theorem proves a foundational result in classical gravity.**  
-We ask what gravitational structure is admissible *in principle*—specifically, how many degrees of freedom gravity may admit under closure—and what follows deductively from that requirement.
+**The Ananke Theorem establishes a foundational structural result for classical gravity.**  
+It asks what gravitational field structure is admissible *in principle* when gravity is required to close with finite conserved energy, and what follows deductively from that requirement.
 
 ---
 
 ## Axioms
 
-- **Classical covariance**  
-- **Quadratic closure with finite conserved energy**  
+- **Classical covariance**
+- **Quadratic closure with finite conserved energy**
 - **Orthogonality of response modes**
 
 ---
 
 ## Structural result
 
-- **Vacuum rigidity:** In isolated vacuum regimes, closure exhausts all degrees of freedom. Gravity admits **zero residual DOF**, recovering vacuum GR exactly as the closed equilibrium (constraint) sector.  
-- **Single non-vacuum residual DOF:** In non-vacuum regimes with sufficient symmetry reduction, closure admits **exactly one** conserved residual degree of freedom (no more, no less).
+- **Vacuum rigidity:**  
+  In isolated vacuum regimes, closure exhausts all degrees of freedom. Gravity admits **zero residual DOF**, recovering vacuum General Relativity exactly as the closed equilibrium (constraint) sector.
+
+- **Single non-vacuum residual DOF:**  
+  Outside vacuum, under sufficient symmetry reduction, closure admits **exactly one** conserved residual degree of freedom. No further independent degrees of freedom are admissible.
 
 ---
 
-## Unique action
-
-The axioms fix a **unique admissible covariant action**, up to boundary terms and invertible local field redefinitions.  
-The admissible structure necessarily decomposes into a **constraint (longitudinal)** sector and an orthogonal **redistributive (transverse)** sector, with interaction fixed by closure and conservation.
-
-## Unique action (schematic form)
+## Unique action (schematic)
 
 $$
 \begin{aligned}
 S \;=\;
 \int d^4x\,\sqrt{-g}\,
 \Big[
-&\underbrace{\mathcal{L}_{\rm EH}(g)}_{\text{metric / geometric response}} \\
-&+\;\underbrace{\mathcal{L}_{\rm L}(\phi)}_{\text{longitudinal (constraint)}} \\
-&+\;\underbrace{\mathcal{L}_{\rm T}(A_\mu)}_{\text{transverse (redistributive)}} \\
-&+\;\underbrace{\mathcal{L}_{\rm c}(\lambda,\phi,u^\mu)}_{\text{closure / orthogonality}}
-\Big] \\
-&+\;\underbrace{S_{\rm matter}[g,\psi]}_{\text{external matter coupling}} .
+&\mathcal{L}_{\rm EH}(g)
++\mathcal{L}_{\rm L}(\phi)
++\mathcal{L}_{\rm T}(A_\mu)
++\mathcal{L}_{\rm c}(\lambda)
+\Big]
++\;S_{\rm matter}[g,\psi].
 \end{aligned}
 $$
+
+Here the metric encodes geometric response, the longitudinal sector enforces constraint, the transverse sector encodes redistribution, and the closure term enforces orthogonality and exhaustion of degrees of freedom.
 
 ---
 
 ## Structural corollaries (under symmetry reduction)
 
 **Galaxies**
-- BTFR:
+
 $$
 M_b \propto V^4
 $$
-- RAR (Newtonian + correction):
+
 $$
-g_{\rm obs}\ =\ g_{\rm bar}\ +\ C\,g_{\rm bar}^{-1/2}
+g_{\rm obs} - g_{\rm bar} \propto g_{\rm bar}^{-1/2}
 $$
 
 **Cosmology**
-- Pressureless scaling:
-ρ ∝ a⁻³
 
-These are ordinarily attributed to **dark matter** and **dark energy** in ΛCDM.  
-Where ΛCDM and modified-gravity models typically introduce additional fields, free functions, or tuning, the Ananke Theorem derives the above as consequences of **structural closure**.
+$$
+\rho \propto a^{-3}
+$$
 
----
-
-## Logical structure (papers)
-
-1. **Fundamental Fields Theorem**  
-   Upstream classification: which classical interaction fields can close under finite conserved energy and covariance.
-
-2. **Ananke (Gravitational Closure) Theorem**  
-   Core theorem: classification of admissible closed classical gravity and the unique action.
-
-3. **Structural Diagnostics of Gravitational Closure**  
-   Bridge layer: necessary and forbidden observational consequences under symmetry reduction; falsification criteria for closure.
-
-4. **Phenomenological Consequences of the Ananke Theorem**  
-   Downstream applications: algebraic scaling laws in galaxies and homogeneous cosmology as regime-specific projections.
+These relations are conventionally attributed to **dark matter** and **dark energy** in ΛCDM.  
+In contrast, the Ananke Theorem derives them as consequences of **structural closure**, without additional substances, free functions, or tuning.
 
 ---
 
-## Papers
+## Further details
 
-- The Fundamental Fields Theorem — DOI:  
-  [https://zenodo.org/records/18387035](https://zenodo.org/records/18387035)
+- [Axioms of gravitational closure](/pages/axioms/)
+- [Unique admissible action](/pages/action/)
+- [Structural diagnostics](/pages/diagnostics/)
+- [Papers and DOIs](/pages/papers/)
 
-- The Ananke (Gravitational Closure) Theorem — DOI:  
-  [https://zenodo.org/records/18387510](https://zenodo.org/records/18387510)
-
-- Structural Diagnostics of Gravitational Closure — DOI:  
-  [https://zenodo.org/records/18387629](https://zenodo.org/records/18387629)
-
-- Phenomenological Consequences of the Ananke Theorem — DOI:  
-  [https://zenodo.org/records/18387544](https://zenodo.org/records/18387544)
-  
 ---
 
 ## Contact
 
 Simon F. Gates  
-simonfgates@gmail.com  
-Independent Researcher
-
+simonfgates@gmail.com
