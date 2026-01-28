@@ -1,13 +1,42 @@
-<!-- index.md (place in repo root) -->
+<!-- index.md (extreme minimal) -->
 
 # Ananke (Gravitational Closure) Theorem
 
-A structural classification result in classical gravity.
+**3 axioms**
+- classical covariance  
+- quadratic closure with finite conserved energy  
+- orthogonality of response modes  
 
-The **Ananke (Gravitational Closure) Theorem** proves that if gravity is required to **close** as a classical field—i.e., satisfy **classical covariance**, **quadratic closure with finite conserved norm**, and **orthogonal modes of response**—then the admissible covariant gravitational structure is essentially fixed (up to boundary terms and invertible local field redefinitions).
+By deduction, these fix the **unique admissible covariant action** (up to boundary terms and invertible local field redefinitions):
 
-**Implications (structural, not phenomenological):**
-- **Vacuum rigidity:** In isolated vacuum regimes, closure admits **zero residual degrees of freedom**, enforcing exact vacuum GR behaviour as the closed equilibrium (constraint) sector.
-- **Single non-vacuum residual DOF:** In non-vacuum regimes with sufficient symmetry reduction, closure admits **exactly one** conserved residual degree of freedom (no more, no less).
-- **Scaling laws as corollaries:** Under the corresponding symmetry reductions, that single residual constant yields the known galactic and cosmological scaling laws as algebraic consequences (e.g. BTFR/RAR/MDA and pressureless a-3 scaling), without introducing new particles, halo models, or interpolation functions.
-- **Emergent geometry:** Spacetime geometry is treated as **derivative**—a record of field organisation—rather than ontologically primitive.
+\[
+S \sim \int d^4x\,\sqrt{-g}\,\Big( \mathcal{Q}_{\text{constraint}} - \mathcal{Q}_{\text{redistributive}} + \text{(continuity / constraint enforcement)} \Big) \;+\; S_{\text{matter}}[g,\psi].
+\]
+
+A convenient explicit representative is:
+
+\[
+S=\frac{1}{16\pi G}\int d^4x\sqrt{-g}\,R
++\int d^4x\sqrt{-g}\,\frac{1}{2}(\nabla\phi)^2
+-\frac{1}{4}\int d^4x\sqrt{-g}\,F_{\mu\nu}F^{\mu\nu}
++\int d^4x\sqrt{-g}\,\lambda\,\nabla_\mu(\phi u^\mu)
++S_{\text{matter}}[g,\psi],
+\]
+with \(A_\mu=\phi u_\mu\), \(F_{\mu\nu}=\nabla_\mu A_\nu-\nabla_\nu A_\mu\).
+
+## Structural corollaries (no fitting; no interpolation)
+
+**Galaxies**
+- BTFR: \(\;M_b \propto V^4\)
+- RAR / MDA: fixed-slope acceleration scaling (see paper)
+
+**Cosmology**
+- pressureless scaling: \(\;\rho \propto a^{-3}\)
+
+These regularities are ordinarily attributed to **dark matter** and **dark energy** in \(\Lambda\)CDM.  
+Where \(\Lambda\)CDM and modified-gravity models typically rely on extra degrees of freedom, free functions, or tuning, the Ananke theorem derives the above as consequences of **structural closure**.
+
+## Papers
+- Theorem (Zenodo DOI): [link]
+- Phenomenology (Zenodo DOI): [link]
+- Diagnostics (Zenodo DOI): [link]
