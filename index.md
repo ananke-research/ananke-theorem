@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-**BUILD:** 2026-01-28-A
 
 # Ananke (Gravitational Closure) Theorem
 
@@ -20,11 +19,10 @@ It asks what gravitational field structure is admissible *in principle* when gra
 
 ## Structural result
 
-- **Vacuum rigidity:**  
-  In isolated vacuum regimes, closure exhausts all degrees of freedom. Gravity admits **zero residual DOF**, recovering vacuum General Relativity exactly as the closed equilibrium (constraint) sector.
+- **Vacuum rigidity:** In isolated vacuum regimes, closure exhausts all degrees of freedom. Gravity admits **zero residual DOF**, recovering vacuum General Relativity exactly as the closed equilibrium (constraint) sector.  
+- **Single non-vacuum residual DOF:** Outside vacuum, under sufficient symmetry reduction, closure admits **exactly one** conserved residual degree of freedom. No further independent degrees of freedom are admissible.
 
-- **Single non-vacuum residual DOF:**  
-  Outside vacuum, under sufficient symmetry reduction, closure admits **exactly one** conserved residual degree of freedom. No further independent degrees of freedom are admissible.
+---
 
 ## Unique action (schematic)
 
@@ -42,8 +40,6 @@ S \;=\;
 \end{aligned}
 $$
 
-Here the metric encodes geometric response, the longitudinal sector enforces constraint, the transverse sector encodes redistribution, and the closure term enforces orthogonality and exhaustion of degrees of freedom.
-
 ---
 
 ## Structural corollaries (under symmetry reduction)
@@ -55,7 +51,7 @@ M_b \propto V^4
 $$
 
 $$
-g_{\rm obs} - g_{\rm bar} \propto g_{\rm bar}^{-1/2}
+g_{\rm obs}-g_{\rm bar} \propto g_{\rm bar}^{-1/2}
 $$
 
 **Cosmology**
@@ -64,8 +60,8 @@ $$
 \rho \propto a^{-3}
 $$
 
-These relations are conventionally attributed to **dark matter** and **dark energy** in ΛCDM.  
-In contrast, the Ananke Theorem derives them as consequences of **structural closure**, without additional substances, free functions, or tuning.
+These relations are conventionally attributed to dark matter and dark energy in \(\Lambda\)CDM.  
+In contrast, the Ananke theorem derives them as consequences of **structural closure**, without additional substances, free functions, or tuning.
 
 ---
 
@@ -75,6 +71,15 @@ In contrast, the Ananke Theorem derives them as consequences of **structural clo
 - [Unique admissible action](/pages/action/)
 - [Structural diagnostics](/pages/diagnostics/)
 - [Papers and DOIs](/pages/papers/)
+
+---
+
+## Papers
+
+- Fundamental Fields Theorem — Zenodo DOI: https://zenodo.org/records/18387035
+- Ananke (Gravitational Closure) Theorem — Zenodo DOI: https://zenodo.org/records/18387510
+- Structural Diagnostics of Gravitational Closure — Zenodo DOI: https://zenodo.org/records/18387629
+- Phenomenological Consequences of the Ananke Theorem — Zenodo DOI: https://zenodo.org/records/18387544
 
 ---
 
