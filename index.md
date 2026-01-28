@@ -74,11 +74,18 @@ Where ΛCDM and modified-gravity models typically introduce additional fields, f
 
 ## Papers
 
-- Fundamental Fields Theorem — DOI: https://zenodo.org/records/18387035  
-- Ananke (Gravitational Closure) Theorem — DOI: https://zenodo.org/records/18387510  
-- Structural Diagnostics of Gravitational Closure — DOI: https://zenodo.org/records/18387629  
-- Phenomenological Consequences of the Ananke Theorem — DOI: https://zenodo.org/records/18387544  
+- Fundamental Fields Theorem — Zenodo DOI:  
+  [https://zenodo.org/records/18387035](https://zenodo.org/records/18387035)
 
+- Ananke (Gravitational Closure) Theorem — Zenodo DOI:  
+  [https://zenodo.org/records/18387510](https://zenodo.org/records/18387510)
+
+- Structural Diagnostics of Gravitational Closure — Zenodo DOI:  
+  [https://zenodo.org/records/18387629](https://zenodo.org/records/18387629)
+
+- Phenomenological Consequences of the Ananke Theorem — Zenodo DOI:  
+  [https://zenodo.org/records/18387544](https://zenodo.org/records/18387544)
+  
 ---
 
 ## Contact
