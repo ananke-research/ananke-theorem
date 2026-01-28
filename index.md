@@ -9,12 +9,6 @@ It asks what gravitational field structure is admissible *in principle* when gra
 
 ---
 
-## Math test
-
-$$
-E = mc^2
-$$
-
 ## Axioms
 
 - **Classical covariance**
