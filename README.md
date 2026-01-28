@@ -1,6 +1,6 @@
 # Ananke (Gravitational Closure) Theorem
 
-The **Ananke (Gravitational Closure) Theorem** is a recent structural result in classical gravity.
+The **Ananke Theorem** is a recent structural result in classical gravity.
 
 It proves that if gravity is required to close as a classical field with finite conserved energy and no residual functional freedom, then:
 
