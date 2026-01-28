@@ -42,9 +42,8 @@ S \;=\;
 &+\;\underbrace{\mathcal{L}_{\rm L}(\phi)}_{\text{longitudinal (constraint)}} \\
 &+\;\underbrace{\mathcal{L}_{\rm T}(A_\mu)}_{\text{transverse (redistributive)}} \\
 &+\;\underbrace{\mathcal{L}_{\rm c}(\lambda,\phi,u^\mu)}_{\text{closure / orthogonality}}
-\Big]
-\;+\;
-\underbrace{S_{\rm matter}[g,\psi]}_{\text{external matter coupling}} .
+\Big] \\
+&+\;\underbrace{S_{\rm matter}[g,\psi]}_{\text{external matter coupling}} .
 \end{aligned}
 $$
 
