@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+**BUILD:** 2026-01-28-A
 
 # Ananke (Gravitational Closure) Theorem
 
