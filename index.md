@@ -33,12 +33,12 @@ S =
 \int d^4x\,\sqrt{-g}\,
 \Big[
 \mathcal{L}_{\rm EH}(g)
-+ \mathcal{L}_{\rm L}(\phi)
++ \mathcal{L}_{\rm L}(\phi) \\
 + \mathcal{L}_{\rm T}(A_\mu)
 + \mathcal{L}_{\rm c}(\lambda)
 \Big]
 + S_{\rm matter}[g,\psi].
-$$
+$$ 
 
 ---
 
