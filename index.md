@@ -24,18 +24,19 @@ It asks what gravitational field structure is admissible *in principle* when gra
 
 ---
 
-## Unique action (schematic)
+## Unique action (schematic form)
 
 $$
 \begin{aligned}
-S &= \int d^4x\,\sqrt{-g}\,
+S \;=\;
+\int d^4x\,\sqrt{-g}\,
 \Big[
-\mathcal{L}_{\rm EH}(g)
-+ \mathcal{L}_{\rm L}(\phi) \\
-&\qquad+ \mathcal{L}_{\rm T}(A_\mu)
-+ \mathcal{L}_{\rm c}(\lambda)
-\Big]
-+ S_{\rm matter}[g,\psi].
+&\underbrace{\mathcal{L}_{\rm EH}(g)}_{\text{metric / geometric response}} \\
+&+\;\underbrace{\mathcal{L}_{\rm L}(\phi)}_{\text{longitudinal (constraint)}} \\
+&+\;\underbrace{\mathcal{L}_{\rm T}(A_\mu)}_{\text{transverse (redistributive)}} \\
+&+\;\underbrace{\mathcal{L}_{\rm c}(\lambda,\phi,u^\mu)}_{\text{closure / orthogonality}}
+\Big] \\
+&+\;\underbrace{S_{\rm matter}[g,\psi]}_{\text{external matter coupling}} .
 \end{aligned}
 $$
 
@@ -43,24 +44,33 @@ $$
 
 ## Structural corollaries (under symmetry reduction)
 
-**Galaxies**
+When the unique closed gravitational action is reduced under the appropriate symmetry classes, the following relations arise as **structural consequences**, not phenomenological assumptions.
+
+### Galaxies
+
+**Baryonic Tully–Fisher Relation (BTFR):**
 
 $$
 M_b \propto V^4
 $$
 
+**Radial Acceleration Relation / Mass–Discrepancy–Acceleration Relation (RAR / MDA):**
+
 $$
 g_{\rm obs}-g_{\rm bar} \propto g_{\rm bar}^{-1/2}
 $$
 
-**Cosmology**
+### Cosmology
+
+**Pressureless homogeneous scaling:**
 
 $$
 \rho \propto a^{-3}
 $$
 
-These relations are conventionally attributed to dark matter and dark energy in \(\Lambda\)CDM.  
-In contrast, the Ananke theorem derives them as consequences of **structural closure**, without additional substances, free functions, or tuning.
+These relations are conventionally attributed to **dark matter** and **dark energy** within the standard cosmological model **ΛCDM**.
+
+In contrast, the Ananke (Gravitational Closure) Theorem derives all of the above as **algebraic consequences of structural closure**, without introducing additional substances, free parameters, interpolation functions, or unrestricted degrees of freedom.
 
 ---
 
