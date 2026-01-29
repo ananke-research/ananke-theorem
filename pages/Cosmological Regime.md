@@ -136,13 +136,18 @@ Conversely, confirmed evidence for multiple independent cosmological organising 
 
 ---
 
-## Summary
+## Regime conclusion
 
-In the homogeneous–isotropic cosmological regime, symmetry eliminates spatial organisation. Closure then requires the same single redistributive degree of freedom admitted in galaxies to organise gravity **globally over volume in time**.
+Under homogeneity and isotropy, spatial organisation is eliminated by symmetry reduction. The same single conserved residual degree of freedom admitted in extended systems can therefore organise only over volume in time.
 
-The result is a pressureless scaling law fixed by structure, not assumption. Cosmology thus completes the regime classification without introducing new gravitational freedom.
+Closure uniquely fixes the pressureless scaling
 
----
+$$
+\rho \propto a^{-3},
+$$
+
+as the global organising response of the gravitational field.  
+The scaling relation is therefore **'Ananke'**: ***It can be no other way.***
 
 ## Next
 
