@@ -1,0 +1,15 @@
+---
+layout: default
+title: About the Author
+permalink: /about/
+---
+
+# About the Author
+
+**Simon F. Gates** is an independent researcher based in Scotland, working on the structural foundations of classical gravity.
+
+This work is conducted independently and is not affiliated with any university, research institute, or funding body. The research is presented on its own merits and is publicly archived for transparency and scrutiny.
+
+Critical analysis, technical scrutiny, and informed discussion of the work are openly invited.
+
+For the formal results and supporting material, see the [Papers and DOIs](/pages/papers/) and the project documentation throughout this site.
