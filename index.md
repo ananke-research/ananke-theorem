@@ -1,128 +1,79 @@
 ---
 layout: default
+title: Ananke (Gravitational Closure) Theorem
 ---
 
 # Ananke (Gravitational Closure) Theorem
 
-**The Ananke Theorem establishes a foundational structural result for classical gravity.**  
-It asks what gravitational field structure is admissible *in principle* when gravity is required to close with finite conserved energy, and what follows deductively from that requirement.
+This site presents a structural result about classical gravity.
+
+The **Ananke Theorem** asks a single question:  
+*What gravitational field structures are admissible in principle if gravity is required to close as a classical field with finite conserved energy?*
+
+The answer is not a new force, substance, or phenomenological modification.  
+It is a classification result.
+
+Gravity is shown to be a **polarised classical field** whose admissible response is fixed by closure and symmetry:  
+pure constraint geometry in vacuum, and exactly one conserved redistributive degree of freedom beyond vacuum when closure demands it.
 
 ---
 
-## Axioms
+## Why this matters
 
-- **Classical covariance**
-- **Quadratic closure with finite conserved energy**
-- **Orthogonality of response modes**
+Modern cosmology faces a structural tension:
 
----
+- General Relativity is exact in isolated vacuum regimes.
+- Galaxy dynamics and cosmological scaling laws do not close under GR alone.
+- The standard response has been to introduce dark matter, dark energy, or phenomenological modifications.
 
-## Structural result
-
-- **Vacuum rigidity:** In isolated vacuum regimes, closure exhausts all degrees of freedom. Gravity admits **zero residual DOF**, recovering vacuum General Relativity exactly as the closed equilibrium (constraint) sector.  
-- **Single non-vacuum residual DOF:** Outside vacuum, under sufficient symmetry reduction, closure admits **exactly one** conserved residual degree of freedom (redistribution). No further independent degrees of freedom are admissible.
+The Ananke Theorem shows that these phenomena arise instead from an **incomplete accounting of gravitational degrees of freedom**.  
+When closure is enforced, no additional substances or free functions are required.
 
 ---
 
-## Unique action (schematic form)
+## What is established
 
-$$
-\begin{aligned}
-S \;=\;
-\int d^4x\,\sqrt{-g}\,
-\Big[
-&\underbrace{\mathcal{L}_{\rm EH}(g)}_{\text{metric / geometric response}} \\
-&+\;\underbrace{\mathcal{L}_{\rm L}(\phi)}_{\text{longitudinal (constraint)}} \\
-&+\;\underbrace{\mathcal{L}_{\rm T}(A_\mu)}_{\text{transverse (redistributive)}} \\
-&+\;\underbrace{\mathcal{L}_{\rm c}(\lambda,\phi,u^\mu)}_{\text{closure / orthogonality}}
-\Big] \\
-&+\;\underbrace{S_{\rm matter}[g,\psi]}_{\text{external matter coupling}} .
-\end{aligned}
-$$
+From three minimal requirements — classical covariance, quadratic closure with finite conserved norm, and orthogonality of response modes — the theorem derives:
+
+- exact recovery of vacuum General Relativity,
+- vacuum rigidity and the absence of extra gravitational charges,
+- a unique admissible gravitational action,
+- exactly one residual degree of freedom outside vacuum under symmetry,
+- galaxy and cosmological scaling laws as structural consequences.
+
+No phenomenological interpolation, tuning, or extra matter sector is introduced.
 
 ---
 
-## Structural corollaries (under symmetry reduction)
+## Structure of the site
 
-When the unique closed action is reduced under the appropriate symmetry classes, the following relations arise as **structural consequences**, not phenomenological assumptions.
+The material is organised deductively:
 
-### Vacuum (isolated systems)
+1. the problem gravity currently faces,
+2. the scope and axioms of the analysis,
+3. the unique admissible action,
+4. the classification of gravitational regimes,
+5. consequences for vacuum, galaxies, and cosmology,
+6. implications for the early universe and General Relativity,
+7. falsification criteria and technical references.
 
-**Inverse-square law (GR vacuum rigidity):**
-
-$$
-g(r)\propto \frac{1}{r^2}
-$$
-
-In isolated vacuum, closure exhausts all degrees of freedom, so gravity reduces to pure **surface-area geometry** and inverse-square scaling is fixed uniquely.
-
----
-
-### Galaxies (stationary extended systems)
-
-**Baryonic Tully–Fisher Relation (BTFR):**
-
-$$
-M_b \propto V^4
-$$
-
-In stationary extended systems, closure admits exactly one redistributive degree of freedom that organises gravity over **radius**, fixing a global acceleration scale and yielding the $V^4$ law.
-
-**Radial Acceleration Relation (RAR):**
-
-$$
-g_{\rm obs}-g_{\rm bar} \propto g_{\rm bar}^{-1/2}
-$$
-
-The same redistributive degree of freedom produces a universal **radial** acceleration relation linking local deviation to the baryonic field.
-
-**Mass–Discrepancy–Acceleration Relation (MDA), equivalent form:**
-
-$$
-\left(\frac{g_{\rm obs}}{g_{\rm bar}}-1\right)\propto g_{\rm bar}^{-3/2}
-$$
-
-Equivalently, the apparent mass discrepancy follows a fixed power law in **radius**, determined by closure rather than additional matter.
+Each page builds on the previous one.
 
 ---
 
-### Cosmology (homogeneous–isotropic)
+## Status
 
-**Pressureless homogeneous scaling:**
+This is not a speculative proposal or an alternative cosmological model.  
+It is a theorem-level classification result with explicit regime-dependent consequences.
 
-$$
-\rho \propto a^{-3}
-$$
-
-Under homogeneous cosmological symmetry, spatial structure is removed and the same residual degree of freedom governs **volume** through time, yielding pressureless scaling.
-
-**Unification statement:** The galaxy and cosmological scaling laws are different symmetry-projections of the **same single redistributive degree of freedom**: in galaxies it organises the field over **radius** (BTFR, RAR/MDA), while in cosmology it organises the field over **volume** (homogeneous scaling).
-
-These relations are conventionally attributed to **dark matter** and **dark energy** within the standard cosmological model **ΛCDM**.  
-In contrast, the Ananke theorem derives them as consequences of **structural closure**, without additional substances, free parameters, interpolation functions, or unrestricted degrees of freedom.
+The technical papers are archived on Zenodo with permanent DOIs.  
+Independent scrutiny, analysis, and critique are explicitly invited.
 
 ---
 
----
-
-## Next
-
-[Next: Problem statement](/pages/problem/)
-
-<small>See also: [Papers and DOIs](/pages/papers/)</small>
+## Begin
 
 ---
 
-## Papers (Zenodo DOIs)
-
-- **Fundamental Fields Theorem** — https://zenodo.org/records/18387035  
-- **Ananke (Gravitational Closure) Theorem** — https://zenodo.org/records/18387510  
-- **Structural Diagnostics of Gravitational Closure** — https://zenodo.org/records/18387629  
-- **Phenomenological Consequences of the Ananke Theorem** — https://zenodo.org/records/18387544  
-
----
-
-## Contact
-
-Simon F. Gates  
-simonfgates@gmail.com
+**Next:** [Problem statement](/pages/problem/)  
+**Return:** [Home](/)
