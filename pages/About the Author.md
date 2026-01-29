@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About the Author
-permalink: /pages/author/
+permalink: /about/
 ---
 
 # About the Author
