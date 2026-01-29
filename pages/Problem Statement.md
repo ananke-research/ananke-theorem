@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Problem Statement
+title: Problem statement
+permalink: /pages/problem/
 ---
 
 # Problem Statement
