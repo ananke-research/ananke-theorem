@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Early universe implications
-permalink: /pages/early-universe/
+permalink: /pages/no-big-bang/
 ---
 
 # Early universe implications
