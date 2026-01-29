@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Physics FAQ
+permalink: /pages/physics-faq/
 ---
 
 # Physics FAQ
