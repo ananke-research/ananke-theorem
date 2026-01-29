@@ -59,7 +59,7 @@ Without introducing dark matter or dark energy *as substances*, the closure fram
 
 - GR is exact and unmodified in vacuum and high-acceleration regimes.
 - Galaxy-scale regularities (BTFR, RAR/MDA) arise as algebraic consequences of a single residual degree of freedom under stationarity and symmetry.
-- Homogeneous cosmology admits a unique pressureless \( a^{-3} \) scaling as a structural consequence of closure, not an assumption.
+- Homogeneous cosmology admits a unique pressureless a-3 scaling as a structural consequence of closure, not an assumption.
 - A single conserved integration constant appears across non-vacuum symmetry-reduced regimes, while no such constant is permitted in vacuum.
 
 These results are **classification results**, not curve fits.
