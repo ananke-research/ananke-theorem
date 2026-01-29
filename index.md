@@ -46,7 +46,19 @@ $$
 
 When the unique closed action is reduced under the appropriate symmetry classes, the following relations arise as **structural consequences**, not phenomenological assumptions.
 
-### Galaxies
+### Vacuum (isolated systems)
+
+**Inverse-square law (GR vacuum rigidity):**
+
+$$
+g(r)\propto \frac{1}{r^2}
+$$
+
+In isolated vacuum, closure exhausts all degrees of freedom, so gravity reduces to pure **surface-area geometry** and inverse-square scaling is fixed uniquely.
+
+---
+
+### Galaxies (stationary extended systems)
 
 **Baryonic Tully–Fisher Relation (BTFR):**
 
@@ -54,19 +66,37 @@ $$
 M_b \propto V^4
 $$
 
-**Radial Acceleration Relation / Mass–Discrepancy–Acceleration Relation (RAR / MDA):**
+In stationary extended systems, closure admits exactly one redistributive degree of freedom that organises gravity over **radius**, fixing a global acceleration scale and yielding the $V^4$ law.
+
+**Radial Acceleration Relation (RAR):**
 
 $$
 g_{\rm obs}-g_{\rm bar} \propto g_{\rm bar}^{-1/2}
 $$
 
-### Cosmology
+The same redistributive degree of freedom produces a universal **radial** acceleration relation linking local deviation to the baryonic field.
+
+**Mass–Discrepancy–Acceleration Relation (MDA), equivalent form:**
+
+$$
+\left(\frac{g_{\rm obs}}{g_{\rm bar}}-1\right)\propto g_{\rm bar}^{-3/2}
+$$
+
+Equivalently, the apparent mass discrepancy follows a fixed power law in **radius**, determined by closure rather than additional matter.
+
+---
+
+### Cosmology (homogeneous–isotropic)
 
 **Pressureless homogeneous scaling:**
 
 $$
 \rho \propto a^{-3}
 $$
+
+Under homogeneous cosmological symmetry, spatial structure is removed and the same residual degree of freedom governs **volume** through time, yielding pressureless scaling.
+
+**Unification statement:** The galaxy and cosmological scaling laws are different symmetry-projections of the **same single redistributive degree of freedom**: in galaxies it organises the field over **radius** (BTFR, RAR/MDA), while in cosmology it organises the field over **volume** (homogeneous scaling).
 
 These relations are conventionally attributed to **dark matter** and **dark energy** within the standard cosmological model **ΛCDM**.  
 In contrast, the Ananke theorem derives them as consequences of **structural closure**, without additional substances, free parameters, interpolation functions, or unrestricted degrees of freedom.
