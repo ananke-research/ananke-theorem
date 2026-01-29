@@ -103,12 +103,13 @@ In contrast, the Ananke theorem derives them as consequences of **structural clo
 
 ---
 
-## Further details
+---
 
-- [Axioms of gravitational closure](/pages/axioms/)
-- [Unique admissible action](/pages/action/)
-- [Structural diagnostics](/pages/diagnostics/)
-- [Papers and DOIs](/pages/papers/)
+## Next
+
+[Next: Problem statement](/pages/problem/)
+
+<small>See also: [Papers and DOIs](/pages/papers/)</small>
 
 ---
 
