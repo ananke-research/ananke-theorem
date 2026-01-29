@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Scope and Domain of Validity
+title: Scope and domain of validity
+permalink: /pages/scope/
 ---
 
 # Scope and domain of validity
