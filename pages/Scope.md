@@ -4,7 +4,7 @@ title: Scope and domain of validity
 permalink: /pages/scope/
 ---
 
-# Scope and domain of validity
+# Scope and Domain of Validity
 
 This page states, in operational terms, where the Ananke (Gravitational Closure) Theorem applies, what it classifies, and what it does not address.
 
