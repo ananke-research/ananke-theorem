@@ -163,11 +163,12 @@ The continuity of the residual degree of freedom across regimes is a central res
 
 ---
 
-## Summary
+## Regime conclusion
 
-In extended stationary systems, vacuum rigidity fails but closure still holds.
+In extended stationary systems, the constraint (equilibrium) response alone is insufficient to achieve closure. Symmetry reduction admits exactly one conserved residual degree of freedom, appearing as a redistributive response slaved to the constraint sector and organising the field radially.
 
-Exactly one conserved residual degree of freedom becomes admissible, appearing as a redistributive response slaved to the constraint sector. Its radial organisation yields the observed galaxy scaling laws as necessary consequences of closure, not phenomenological coincidences.
+The resulting galaxy scaling relations follow as algebraic consequences of closure, not as phenomenological inputs.  
+***They can be no other way.***
 
 ---
 
