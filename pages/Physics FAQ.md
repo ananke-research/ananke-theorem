@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Physics FAQ (Exhaustive)
+# Physics FAQ
 
 This FAQ covers the **physical and mathematical** content of the Ananke (Gravitational Closure) Theorem and its downstream results.  
 It does **not** address ontology, interpretation, or philosophy (see the Ontology FAQ).
