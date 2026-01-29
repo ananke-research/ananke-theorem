@@ -142,12 +142,13 @@ This is precisely what the non-vacuum classification provides.
 
 ---
 
-## Summary
+---
 
-In isolated vacuum exteriors, closure and symmetry reduction exhaust all admissible gravitational freedom. The redistributive response is forced to vanish identically, leaving the uniquely rigid geometric equilibrium sector.
+## Regime conclusion
 
-Vacuum GR is therefore recovered exactly, not as a postulate but as a structural consequence of closure.
+In isolated vacuum exteriors, symmetry reduction and closure exhaust all admissible gravitational freedom. No residual degree of freedom can persist without violating isolation or orthogonality. The gravitational response therefore reduces uniquely to pure constraint geometry, exactly recovering vacuum General Relativity.
 
+The Einstein–Hilbert vacuum is thus not a modelling choice but a structural necessity.  
 ***It can be no other way.***
 
 ---
