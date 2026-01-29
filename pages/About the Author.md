@@ -4,7 +4,6 @@ title: About the Author
 permalink: /pages/author/
 ---
 
-
 # About the Author
 
 **Simon F. Gates** is an independent researcher based in the U.K.
@@ -13,4 +12,4 @@ This work is conducted independently and is not affiliated with any university, 
 
 Critical analysis, technical scrutiny, and informed discussion of the work are openly invited.
 
-For the formal results and supporting material, see the [Papers and DOIs](/pages/papers/) and the project documentation throughout this site.
+For the formal results and supporting material, see the [Papers & DOIs](/pages/papers/) and the project documentation throughout this site.
