@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Unique Admissible Action
-permalink: /pages/action/
 ---
 
 # Unique Admissible Action
