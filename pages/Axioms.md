@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Axioms
+permalink: /pages/axioms/
 ---
 
 # Axioms of Gravitational Closure
