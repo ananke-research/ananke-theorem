@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Unique Admissible Action
+title: Unique admissible action
+permalink: /pages/action/
 ---
 
 # Unique Admissible Action
