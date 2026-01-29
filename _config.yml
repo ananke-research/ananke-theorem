@@ -2,3 +2,7 @@ markdown: kramdown
 kramdown:
   math_engine: katex
 permalink: pretty
+theme: minima
+
+minima:
+  skin: dark
