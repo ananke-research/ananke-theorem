@@ -1,0 +1,64 @@
+/* Global dark theme */
+
+html, body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Main content container (Jekyll defaults vary by theme) */
+main, .page-content, .wrapper, .container {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+/* Links */
+a {
+  color: #4da6ff;
+}
+
+a:visited {
+  color: #9db7ff;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Horizontal rules */
+hr {
+  border-color: #444444;
+}
+
+/* Code blocks */
+pre, code {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #444444;
+  color: #dddddd;
+  background-color: #0a0a0a;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #444444;
+  padding: 0.4em 0.6em;
+}
+
+/* MathJax containers */
+mjx-container {
+  color: #ffffff !important;
+}
