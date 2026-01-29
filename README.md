@@ -2,11 +2,7 @@
 
 **A structural classification of admissible classical gravity**
 
-This repository is the canonical public record for the **Ananke (Gravitational Closure) Theorem** and its downstream consequences.
-
-The public website for the project is:
-
-**https://ananketheorem.org**
+This repository is the canonical public record for the **Ananke (Gravitational Closure) Theorem** and its downstream consequences. 
 
 The Ananke Theorem is **not a modified-gravity model** and does not introduce new phenomenological assumptions.  
 It is a **classification theorem**: given minimal structural requirements already implicit in classical gravity, it determines what gravitational field structures are admissible *in principle*.
@@ -102,20 +98,7 @@ These documents constitute the citable, frozen statements of the framework.
 
 ---
 
-## 6. Repository Structure
-
-- `papers/`  
-  Manuscripts and supplementary material corresponding to the Zenodo records
-
-- `docs/`  
-  Explanatory notes, figures, and regime summaries used by the website  
-  (see **https://ananketheorem.org**)
-
-Major results are versioned and changes are tracked via Git history.
-
----
-
-## 7. Logical Status
+## 6. Logical Status
 
 The Ananke framework proceeds **deductively**.
 
@@ -129,14 +112,14 @@ Violation of a structural necessity falsifies closure itself.
 
 ---
 
-## 8. Archival Status and Citation
+## 7. Archival Status and Citation
 
 Zenodo DOIs provide the permanent archival record for the formal papers.  
 This GitHub repository serves as the canonical working and reference space for the framework and its ongoing development.
 
 ---
 
-## 9. Contact
+## 8. Contact
 
 **Simon F. Gates**  
 Independent Researcher  
@@ -144,7 +127,7 @@ Email: simonfgates@gmail.com
 
 ---
 
-## 10. License
+## 9. License
 
 All original text and code in this repository are released under the MIT License unless otherwise stated.
 
