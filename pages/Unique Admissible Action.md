@@ -4,7 +4,7 @@ title: Unique Admissible Action
 permalink: /pages/action/
 ---
 
-# Unique admissible action
+# Unique Admissible Action
 
 This page presents the unique closed classical gravitational action in three layers:
 
