@@ -188,7 +188,8 @@ The formal results are archived on Zenodo with permanent DOIs:
 
 ## 23) What is the recommended reading order?
 
-1. Fundamental Fields Theorem  
-2. Ananke (Gravitational Closure) Theorem  
-3. Phenomenological Consequences of the Ananke Theorem  
-4. Structural Diagnostics of Gravitational Closure
+1. [Fundamental Fields Theorem](https://zenodo.org/records/18387035)  
+2. [Ananke (Gravitational Closure) Theorem](https://zenodo.org/records/18387510)  
+3. [Phenomenological Consequences of the Ananke Theorem](https://zenodo.org/records/18387544)  
+4. [Structural Diagnostics of Gravitational Closure](https://zenodo.org/records/18387629)
+
