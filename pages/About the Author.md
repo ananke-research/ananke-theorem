@@ -1,8 +1,8 @@
 ---
 layout: default
 title: About the Author
-permalink: /about/
 ---
+
 
 # About the Author
 
