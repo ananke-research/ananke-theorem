@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Why “Ananke”?
+permalink: /pages/why-ananke/
 ---
 
 # Why “Ananke”?
