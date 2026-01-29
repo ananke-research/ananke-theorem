@@ -1,6 +1,7 @@
 ---
 layout: default
-title: and General Relativity?
+title: And General Relativity?
+permalink: /pages/gr/
 ---
 
 # And General Relativity?
