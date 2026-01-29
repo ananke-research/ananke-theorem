@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Papers & DOIs
+# Papers and DOIs
 
 This page lists the core technical papers underlying the **Ananke (Gravitational Closure) Theorem** framework.  
 All papers are archived on **Zenodo** with permanent DOIs.
