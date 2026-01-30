@@ -17,7 +17,7 @@ All papers are archived on **Zenodo** with permanent DOIs.
 
 **The Fundamental Fields Theorem**
 
-**A Structural Classification of Classical Interaction Fields Under Closure*
+*A Structural Classification of Classical Interaction Fields Under Closure*
 
 This paper establishes an upstream classification result: which classical interaction fields are capable of closing under covariance and finite conserved energy. It identifies gravity as uniquely admissible.
 
