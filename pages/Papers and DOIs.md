@@ -24,7 +24,7 @@ This paper establishes an upstream classification result: which classical intera
 
 ## Ananke (Gravitational Closure) Theorem
 
-**Title:** *Ananke: A Classification Theorem for Closed Classical Gravity*
+**Title:** **The Ananke (Gravitational Closure) Theorem** - *A Classification of Closed Classical Gravitational Fields*
 
 This is the core theorem. It classifies the admissible structure of classical gravity under closure, deriving the unique covariant action, exact GR recovery in vacuum, and the existence of a single redistributive degree of freedom outside vacuum.
 
