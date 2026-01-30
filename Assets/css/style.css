@@ -1,51 +1,84 @@
-/* Global dark theme */
+#!/usr/bin/env bash
+set -euo pipefail
+
+BRANCH="fix/light-theme"
+BASE="origin/main"
+REPO_ROOT="$(pwd)"
+
+echo "This script will create branch ${BRANCH}, replace Assets/css/style.css, remove inline style block from _layouts/default.html, commit, push, and open a PR."
+read -p "Continue? [y/N] " confirm
+if [[ "${confirm,,}" != "y" ]]; then
+  echo "Aborted by user."
+  exit 1
+fi
+
+# Fetch and create branch
+git fetch origin
+git checkout -b "${BRANCH}" "${BASE}"
+
+# Replace Assets/css/style.css (backup first)
+mkdir -p Assets/css
+if [[ -f Assets/css/style.css ]]; then
+  cp Assets/css/style.css Assets/css/style.css.bak
+  echo "Backup created at Assets/css/style.css.bak"
+fi
+
+cat > Assets/css/style.css <<'EOF'
+/* Global light theme */
 
 html, body {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Main content container (Jekyll defaults vary by theme) */
 main, .page-content, .wrapper, .container {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+  color: #000000;
 }
 
 /* Links */
 a {
-  color: #4da6ff;
+  color: #0645ad;
 }
 
 a:visited {
-  color: #9db7ff;
+  color: #6f48b4;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #042a6b;
   text-decoration: underline;
 }
 
 /* Horizontal rules */
 hr {
-  border-color: #444444;
+  border-color: #cccccc;
 }
 
 /* Code blocks */
 pre, code {
-  background-color: #111111;
-  color: #ffffff;
+  background-color: #f6f8fa;
+  color: #111111;
+  border: 1px solid #e1e4e8;
+  padding: 0.5em;
+  border-radius: 4px;
 }
 
 /* Blockquotes */
 blockquote {
-  border-left: 4px solid #444444;
-  color: #dddddd;
-  background-color: #0a0a0a;
+  border-left: 4px solid #cccccc;
+  color: #333333;
+  background-color: #f8f8f8;
+  padding: 0.5em 1em;
+  margin: 0.75em 0;
 }
 
 /* Tables */
@@ -54,11 +87,66 @@ table {
 }
 
 th, td {
-  border: 1px solid #444444;
+  border: 1px solid #dddddd;
   padding: 0.4em 0.6em;
+  color: #000000;
+  background-color: #ffffff;
 }
 
-/* MathJax containers */
-mjx-container {
-  color: #ffffff !important;
+/* Math (KaTeX) and MathML containers */
+.katex, .katex * , mjx-container {
+  color: #000000 !important;
 }
+
+/* Utility: ensure dark-theme classes/attributes don't persist */
+[data-theme="dark"], .dark-theme, body.dark {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* End of light theme defaults */
+EOF
+
+echo "Replaced Assets/css/style.css"
+
+# Remove the inline override block from _layouts/default.html (backup first)
+if [[ -f _layouts/default.html ]]; then
+  cp _layouts/default.html _layouts/default.html.bak
+  echo "Backup created at _layouts/default.html.bak"
+
+  # The perl command removes the specific comment + style block (non-greedy)
+  perl -0777 -pe 's/<!-- Inline override to ensure a light \(white\) background with dark text -->.*?<\/style>\s*//s' _layouts/default.html > _layouts/default.html.tmp
+  mv _layouts/default.html.tmp _layouts/default.html
+  echo "Removed inline style block from _layouts/default.html"
+else
+  echo "Warning: _layouts/default.html not found."
+fi
+
+# Show git diff for review
+git add -A
+echo
+echo "===== GIT DIFF (preview) ====="
+git --no-pager diff --staged || true
+echo "============================="
+read -p "Review the diff above. Commit and push? [y/N] " ok
+if [[ "${ok,,}" != "y" ]]; then
+  echo "Aborted before commit. You can inspect the backups (_layouts/default.html.bak, Assets/css/style.css.bak)."
+  exit 1
+fi
+
+# Commit and push
+git commit -m "Move light theme defaults into Assets/css/style.css and remove inline override from _layouts/default.html"
+git push -u origin "${BRANCH}"
+
+# Create PR using gh
+PR_TITLE="Move light theme defaults into site stylesheet and remove inline override"
+PR_BODY="Move the light-theme overrides into Assets/css/style.css, remove inline style in _layouts/default.html, and restore clean light defaults. This centralizes theme styling into the site stylesheet and avoids inline overrides."
+
+if command -v gh >/dev/null 2>&1; then
+  gh pr create --title "${PR_TITLE}" --body "${PR_BODY}" --base main
+  echo "PR created. Open it in your browser with: gh pr view --web"
+else
+  echo "gh CLI not found. Push succeeded; open a PR at: https://github.com/$(git remote get-url origin | sed -E 's/.*[:\/]([^\/:]+\/[^\/.]+)(\.git)?$/\1/')/pull/new/${BRANCH}"
+fi
+
+echo "Done."
