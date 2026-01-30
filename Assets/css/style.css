@@ -104,6 +104,35 @@ th, td {
   color: #000000 !important;
 }
 
+/* Toggle / tab button styles (append) */
+.toggle-buttons {
+  margin-bottom: 0.8rem;
+}
+.toggle-buttons button {
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 0.5rem 0.9rem;
+  margin-right: 0.3rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.toggle-buttons button.active {
+  background: #4da6ff;
+  color: #000;
+  border-color: #4da6ff;
+}
+.toggle-section {
+  display: none;
+  margin-top: 0.8rem;
+  padding: 0.8rem;
+  border-radius: 6px;
+  background: #0a0a0a;
+  border: 1px solid #222;
+}
+.toggle-section.active {
+  display: block;
+}
 /* End of light theme defaults */
 EOF
 
