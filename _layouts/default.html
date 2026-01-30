@@ -10,6 +10,33 @@
 
   <!-- Custom site stylesheet -->
   <link rel="stylesheet" href="{{ site.custom_css | default: '/Assets/css/style.css' }}">
+
+  <!-- Inline override to ensure a light (white) background with dark text -->
+  <style>
+    /* Force light theme to override any dark theme rules */
+    html, body {
+      background-color: #ffffff !important;
+      color: #000000 !important;
+    }
+
+    /* Keep navigation visually light and legible */
+    nav {
+      background: transparent !important;
+      color: inherit !important;
+    }
+    nav a {
+      color: #0645ad !important;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* KaTeX sometimes sets colors; ensure math text is dark */
+    .katex, .katex * {
+      color: #000000 !important;
+    }
+  </style>
 </head>
 <body>
 
