@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Toggle Equations (Buttons)
+permalink: /pages/toggle-equations/
 ---
 
 <h2>Toggle equations with buttons</h2>
