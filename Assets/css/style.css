@@ -1,51 +1,58 @@
-/* Global dark theme */
+/* Global light theme */
 
 html, body {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Main content container (Jekyll defaults vary by theme) */
 main, .page-content, .wrapper, .container {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+  color: #000000;
 }
 
 /* Links */
 a {
-  color: #4da6ff;
+  color: #0645ad;
 }
 
 a:visited {
-  color: #9db7ff;
+  color: #6f48b4;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #042a6b;
   text-decoration: underline;
 }
 
 /* Horizontal rules */
 hr {
-  border-color: #444444;
+  border-color: #cccccc;
 }
 
 /* Code blocks */
 pre, code {
-  background-color: #111111;
-  color: #ffffff;
+  background-color: #f6f8fa;
+  color: #111111;
+  border: 1px solid #e1e4e8;
+  padding: 0.5em;
+  border-radius: 4px;
 }
 
 /* Blockquotes */
 blockquote {
-  border-left: 4px solid #444444;
-  color: #dddddd;
-  background-color: #0a0a0a;
+  border-left: 4px solid #cccccc;
+  color: #333333;
+  background-color: #f8f8f8;
+  padding: 0.5em 1em;
+  margin: 0.75em 0;
 }
 
 /* Tables */
@@ -54,11 +61,21 @@ table {
 }
 
 th, td {
-  border: 1px solid #444444;
+  border: 1px solid #dddddd;
   padding: 0.4em 0.6em;
+  color: #000000;
+  background-color: #ffffff;
 }
 
-/* MathJax containers */
-mjx-container {
-  color: #ffffff !important;
+/* Math (KaTeX) and MathML containers */
+.katex, .katex * , mjx-container {
+  color: #000000 !important;
 }
+
+/* Utility: ensure dark-theme classes/attributes don't persist */
+[data-theme="dark"], .dark-theme, body.dark {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* End of light theme defaults */
