@@ -32,6 +32,21 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Navigation */
+nav {
+  background: transparent;
+  color: inherit;
+}
+
+nav a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 /* Horizontal rules */
 hr {
   border-color: #cccccc;
@@ -68,7 +83,7 @@ th, td {
 }
 
 /* Math (KaTeX) and MathML containers */
-.katex, .katex * , mjx-container {
+.katex, .katex *, mjx-container {
   color: #000000 !important;
 }
 
