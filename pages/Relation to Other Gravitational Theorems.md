@@ -1,6 +1,7 @@
 ---
-title: Relation to Existing Gravity Theorems
-nav_order: 6
+layout: default
+title: Equivalence principle
+permalink: /pages/relation-to-other-theorems/
 ---
 
 # Relation to Existing Gravity Theorems
