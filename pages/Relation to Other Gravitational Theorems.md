@@ -6,7 +6,7 @@ permalink: /pages/relation-to-other-theorems/
 
 # Relation to Existing Gravity Theorems
 
-This page describes how the **Ananke Theorem** relates to several well-established theorems in gravitational physics. Each of these results addresses a well-defined question within a particular formulation, symmetry class, or physical regime.
+This page describes how the Ananke Theorem relates to several well-established theorems in gravitational physics. Each of these results addresses a well-defined question within a particular formulation, symmetry class, or physical regime.
 
 The Ananke Theorem addresses a different type of question: it characterises the admissible response structure of gravity once it is required to close as a classical field. From this perspective, familiar gravity theorems can be viewed as precise results obtained under specific assumptions and conditions, while Ananke concerns the general constraints that apply across regimes.
 
@@ -22,7 +22,7 @@ Established gravity theorems typically share the following features:
 - each addresses a well-defined regime or symmetry class;
 - each provides a rigorous and often highly nontrivial result within that domain.
 
-What they do **not aim to do** is provide a global classification of gravity across all regimes or to specify, in general terms, when different gravitational behaviours must arise. That broader classificatory question is the domain of the Ananke Theorem.
+What they do not aim to do is provide a global classification of gravity across all regimes or to specify, in general terms, when different gravitational behaviours must arise. That broader classificatory question is the domain of the Ananke Theorem.
 
 ---
 
@@ -124,6 +124,6 @@ In doing so, Ananke provides a unifying structural perspective that helps place 
 
 ## Summary
 
-Established gravity theorems provide rigorous and indispensable results within their respective domains. The Ananke Theorem complements these results by offering a structural classification of gravitational closure across regimes, clarifying why rigidity appears where it does and when departures from purely geometric behaviour are unavoidable.
+Established gravity theorems provide rigorous results within their respective domains. The Ananke Theorem complements these results by offering a structural classification of gravitational closure across regimes, clarifying why rigidity appears where it does and when departures from purely geometric behaviour are unavoidable.
 
 It is intended not as a replacement for existing theorems, but as a framework that helps organise and contextualise them within a single closure-based perspective.
