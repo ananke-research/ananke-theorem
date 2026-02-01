@@ -6,7 +6,7 @@ permalink: /pages/relation-to-other-theorems/
 
 # Relation to Existing Gravity Theorems
 
-This page describes how the **Ananke (Gravitational Closure) Theorem** relates to several well-established theorems in gravitational physics, and clarifies the distinct role each result plays. The aim is not to compare correctness or importance, but to situate these results at different **logical and structural levels**.
+This page describes how the **Ananke Theorem** relates to several well-established theorems in gravitational physics, and clarifies the distinct role each result plays. The aim is not to compare correctness or importance, but to situate these results at different **logical and structural levels**.
 
 The Ananke Theorem is a **structural classification theorem**. Rather than addressing particular solutions, actions, or symmetry classes, it characterises the admissible response structure of gravity once it is required to close as a classical field. From this perspective, many familiar gravity theorems can be understood as precise results obtained within specific frameworks and regimes, while Ananke addresses a more general organising question.
 
