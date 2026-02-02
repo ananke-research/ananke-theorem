@@ -1,139 +1,55 @@
-# The Ananke (Gravitational Closure) Theorem
+# Ananke (Gravitational Closure) Theorem
 
-**A structural classification of admissible classical gravity**
+This repository contains the **Ananke (Gravitational Closure) Theorem**, a structural classification result for classical gravity.  
+The theorem determines what gravitational field structures are admissible *in principle* once gravity is required to close as a classical field with finite conserved energy under covariance.
 
-This repository is the canonical public record for the **Ananke (Gravitational Closure) Theorem** and its downstream consequences. 
-
-The Ananke Theorem is **not a modified-gravity model** and does not introduce new phenomenological assumptions.  
-It is a **classification theorem**: given minimal structural requirements already implicit in classical gravity, it determines what gravitational field structures are admissible *in principle*.
+The result is deductive and parameter-free. It introduces no phenomenological modelling, no empirical tuning, and no additional matter content. Its conclusions follow by elimination from structural requirements alone.
 
 ---
 
-## 1. Core Question
+## What this repository contains
 
-What gravitational response structures are possible once gravity is required to **close as a classical field**?
+This repository is organised around a single purpose: **to present the Ananke Theorem clearly and canonically**.
 
-By *closure* we mean:
+It contains:
 
-- finite, self-contained conserved energy,
-- exhaustion of degrees of freedom under symmetry,
-- no reliance on external bookkeeping, hidden components, or regime-dependent prescriptions.
+- the canonical theorem paper (source and PDF),
+- a set of short, structured theorem pages that mirror the logical development of the paper,
+- minimal material exported to the public website (`ananketheorem.org`).
 
-The theorem asks **what must follow** if gravity is treated as a closed classical interaction.
-
----
-
-## 2. Main Result (Informal Statement)
-
-Under three minimal structural requirements:
-
-1. **Classical covariance**  
-2. **Quadratic closure with finite conserved norm**  
-3. **Orthogonal modes of response**
-
-the admissible structure of classical gravity is fixed.
-
-### Consequences
-
-- **Vacuum rigidity**  
-  In isolated vacuum regimes, closure admits **zero residual degrees of freedom**.  
-  Gravity is rigid, unique, and reduces *exactly* to Newtonian gravity and vacuum General Relativity.
-
-- **Non-vacuum symmetry-reduced regimes**  
-  In non-vacuum regimes with sufficient symmetry, closure admits **exactly one** residual degree of freedom.  
-  This degree of freedom:
-  - is redistributive rather than sourcing,
-  - cannot propagate independently in vacuum,
-  - appears only as a conserved integration constant,
-  - vanishes continuously in the vacuum limit.
-
-- **Uniqueness of the admissible action**  
-  The covariant gravitational action consistent with closure is fixed **up to equivalence**.  
-  No additional fields, potentials, screening mechanisms, or free functions are admissible.
+The paper remains the sole authoritative source. The pages are a navigational and explanatory layer.
 
 ---
 
-## 3. What This Explains (Structurally)
+## Core result (one paragraph)
 
-Without introducing dark matter or dark energy *as substances*, the closure framework explains why:
-
-- GR is exact and unmodified in vacuum and high-acceleration regimes.
-- Galaxy-scale regularities (BTFR, RAR/MDA) arise as algebraic consequences of a single residual degree of freedom under stationarity and symmetry.
-- Homogeneous cosmology admits a unique pressureless a-3 scaling as a structural consequence of closure, not an assumption.
-- A single conserved integration constant appears across non-vacuum symmetry-reduced regimes, while no such constant is permitted in vacuum.
-
-These results are **classification results**, not curve fits.
+Under the axioms of classical covariance, quadratic closure with finite conserved energy, and orthogonal modes of response, classical gravity admits a uniquely determined internal structure. Isolated vacuum regimes possess zero residual degrees of freedom and are rigid; non-vacuum but symmetry-reduced regimes admit exactly one residual degree of freedom, which is redistributive, slaved, and fixed by conservation; and the covariant gravitational action is unique up to equivalence. Newtonian gravity and vacuum General Relativity are recovered necessarily as the maximally constrained limit of the closed gravitational field.
 
 ---
 
-## 4. What This Is *Not*
+While the Ananke Theorem itself is complete at the level of structural classification, its results imply that all gravitational scaling laws across vacuum, galactic, and cosmological regimes arise as consequences of the same closed-field structure under different symmetry conditions; the explicit derivation of these laws is presented separately in the *phenomenological-consequences-of-ananke* repository and is not required for completion of the theorem.
 
-- Not a phenomenological modified-gravity model  
-- Not MOND, TeVeS, Einstein–Æther, or a variant thereof  
-- Not a cosmological model proposal  
-- Not a claim that dark matter or dark energy “do not exist”
 
-The theorem is conditional and structural:  
-**if** gravity closes classically, **then** these consequences follow.
+## Repository structure
 
----
+ananke-theorem/
 
-## 5. Papers (Zenodo DOIs)
+├── README.md
 
-The formal results associated with this project are archived on Zenodo with permanent DOIs:
+├── CITATION.cff
 
-- **The Fundamental Fields Theorem**  
-  https://zenodo.org/records/18387035
+├── LICENSE
 
-- **The Ananke (Gravitational Closure) Theorem**  
-  https://zenodo.org/records/18387510
+├── paper/
 
-- **Structural Diagnostics of Gravitational Closure**  
-  https://zenodo.org/records/18387629
+│ ├── Ananke_Theorem.pdf
 
-- **Phenomenological Consequences of the Ananke Theorem**  
-  https://zenodo.org/records/18387544
+│ └── source/
 
-These documents constitute the citable, frozen statements of the framework.
+├── pages/
 
----
+│ ├── 00-overview.md >>> 18-conclusion.md
 
-## 6. Logical Status
+└── site-pages/
 
-The Ananke framework proceeds **deductively**.
-
-- No observational inputs are used in the classification.
-- No parameters are fitted.
-- No regimes are interpolated by hand.
-
-Phenomenological consequences arise *only* after symmetry reduction exhausts functional freedom.
-
-Violation of a structural necessity falsifies closure itself.
-
----
-
-## 7. Archival Status and Citation
-
-Zenodo DOIs provide the permanent archival record for the formal papers.  
-This GitHub repository serves as the canonical working and reference space for the framework and its ongoing development.
-
----
-
-## 8. Contact
-
-**Simon F. Gates**  
-Independent Researcher  
-Email: simonfgates@gmail.com
-
----
-
-## 9. License
-
-All original text and code in this repository are released under the MIT License unless otherwise stated.
-
----
-
-### Summary
-
-> **The Ananke Theorem establishes what gravity must be if it is to close.**  
-> It explains the rigidity of vacuum gravity and the necessity of a single residual degree of freedom beyond vacuum—without modifying General Relativity where it is exact.
+└── (exported summaries used by ananketheorem.org)
