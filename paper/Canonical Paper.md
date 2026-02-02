@@ -18,7 +18,7 @@ The Ananke Theorem is a structural classification result for classical gravity. 
 → https://zenodo.org/records/18387510
 
 **DOI:**  
-→ [10.5281/zenodo.XXXXXXX  ](https://doi.org/10.5281/zenodo.18387510)
+→https://doi.org/10.5281/zenodo.18387510
 
 
 **PDF:**  
