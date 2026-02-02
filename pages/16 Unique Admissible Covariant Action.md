@@ -90,37 +90,63 @@ No additional couplings are admissible.
 
 ### The unique closed action
 
-Collecting the metric, constraint, redistributive, conservation, and matter sectors, the admissible closed classical gravitational action necessarily decomposes as,
+With admissible response structure fully fixed, the covariant gravitational action is no longer a matter of modelling choice. Closure, orthogonality, and vacuum rigidity determine both the decomposition and the content of the action uniquely, up to equivalence.
+
+It is useful to present this result in two stages: first in **schematic form**, which displays the structural roles of each sector, and then in **explicit form**, which realises those roles covariantly.
+
+---
+
+#### Schematic decomposition
+
+Collecting the metric, constraint, redistributive, conservation, and matter sectors, any admissible closed classical gravitational action must decompose as
 
 $$
 \begin{array}{l}
 S
 =\int d^4x\,\sqrt{-g}\,
 \Big[
-\underbrace{\mathcal{L}_{\rm EH}(g)}_{\text{metric / geometric response}}
+\underbrace{\mathcal{L}_{\rm EH}(g)}_{\text{metric (geometric / vacuum-rigid) response}}
 \\
 \qquad
-+\underbrace{\mathcal{L}_{\rm L}(\phi)}_{\text{longitudinal (constraint)}}
-+\underbrace{\mathcal{L}_{\rm T}(A_\mu)}_{\text{transverse (redistributive)}}
-+\underbrace{\mathcal{L}_{\rm c}(\lambda,\phi,u^\mu)}_{\text{closure / orthogonality}}
++\underbrace{\mathcal{L}_{\rm L}(\phi)}_{\text{longitudinal (constraint) sector}}
++\underbrace{\mathcal{L}_{\rm T}(A_\mu)}_{\text{transverse (redistributive) sector}}
++\underbrace{\mathcal{L}_{\rm cl}(\lambda,\phi,u^\mu)}_{\text{closure enforcement (conservation \ orthogonality)}}
 \Big]
-+\underbrace{S_{\rm matter}[g,\psi]}_{\text{matter coupling}} .
++\underbrace{S_{\rm matter}[g,\psi]}_{\text{universal matter coupling}} .
 \end{array}
 $$
- $$ 
-S = S_g + S_c + S_r + S_\lambda + S_{\text{matter}} .
+
+This decomposition is not assumed. Each sector is required by closure:
+
+- the **metric sector** enforces vacuum rigidity and unique exterior geometry,
+- the **longitudinal (constraint) sector** enforces local gravitational balance,
+- the **transverse (redistributive) sector** realises the single admissible redistributive degree of freedom,
+- the **closure enforcement sector** enforces conservation and orthogonality without introducing independent degrees of freedom,
+- **matter** couples universally through the metric alone.
+
+No additional sectors are admissible, and no sector may be omitted without violating closure.
+
+---
+
+#### Explicit realisation
+
+Up to boundary terms, invertible local field redefinitions, and normalisation conventions, the unique admissible closed classical gravitational action takes the form
+
+$$ \begin{array}{l} S=\frac{1}{16\pi G}\int d^4x\,\sqrt{-g}\,R \\\\ \qquad+\frac{1}{2}\int d^4x\,\sqrt{-g}\,(\nabla\phi)^2 -\frac{1}{4}\int d^4x\,\sqrt{-g}\,F_{\mu\nu}F^{\mu\nu} +\int d^4x\,\sqrt{-g}\,\lambda\,\nabla_\mu(\phi\,u^\mu) +S_{\mathrm{matter}}[g,\psi]. \end{array} $$ with $$ (\nabla\phi)^2 \equiv g^{\mu\nu}\nabla_\mu\phi\,\nabla_\nu\phi, \qquad F_{\mu\nu}=\nabla_\mu A_\nu-\nabla_\nu A_\mu . $$
+
+The redistributive potential is slaved to the constraint sector via
+
+ $$
+A_\mu = \phi\,u_\mu ,
  $$
 
-A representative of this unique equivalence class is therefore,
+and does not constitute an independent field.
 
- $$ 
-\begin{aligned}
-S = {} & \frac{1}{16\pi G}\int d^4x\,\sqrt{-g}\,R
-+ \int d^4x\,\sqrt{-g}\,\frac{1}{2}(\nabla\phi)^2 \\
-& - \frac{1}{4}\int d^4x\,\sqrt{-g}\,F_{\mu\nu}F^{\mu\nu}
-+ \int d^4x\,\sqrt{-g}\,\lambda\,\nabla_\mu(\phi\,u^\mu)
-+ S_{\text{matter}}[g,\psi] .
-\end{aligned}
- $$
+---
+
+#### Uniqueness
 
 Under the requirements of closure, orthogonality, and vacuum rigidity, this action is fixed uniquely up to equivalence. Any modification introduces independent degrees of freedom or violates closure; any omission renders the admissible structure incomplete.
+
+The action therefore represents the **unique closed covariant completion of classical gravity**.
+
