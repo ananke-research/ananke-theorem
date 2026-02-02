@@ -3,113 +3,117 @@
 The **Ananke (Gravitational Closure) Theorem** establishes a foundational structural result for classical gravity.  
 It determines what gravitational field structures are admissible *in principle* once gravity is required to close as a classical field with finite conserved energy under covariance.
 
-The theorem does not introduce new dynamics, phenomenological fits, or additional matter content.  
-Instead, it classifies the possible forms gravity may take by eliminating structures that fail to satisfy closure.
+The theorem does not introduce new dynamics, phenomenological fits, or empirical parameters.  
+Instead, it classifies the internal structure of gravity by eliminating all field constructions that fail to satisfy closure.
 
-The central result is that closure imposes strict and exhaustive constraints on the gravitational field.  
-Under these constraints, gravity is not characterised by geometry alone, nor by arbitrary additional fields, but by **orthogonal modes of response** whose admissibility is fixed by structural necessity.
+The central result is that closure imposes strict and exhaustive constraints on gravitational response. Under these constraints, gravity is neither geometry alone nor an arbitrary collection of fields, but a **polarised field** admitting exactly two orthogonal modes of response whose structure is fixed by necessity.
 
 ---
 
 ### Logical status
 
 The Ananke Theorem is a **classification theorem**, not a model proposal.  
-Its conclusions follow deductively from the requirement that gravity form a closed classical field under symmetry and covariance.
+Its conclusions follow deductively from structural requirements placed on classical gravitational fields.
 
 No observational inputs are used.  
-No phenomenological parameters are introduced.  
-No empirical tuning is performed.
+No phenomenological tuning is performed.  
+No regime-dependent assumptions are introduced.
 
 The theorem answers a single question:
 
-> *What gravitational field structures are admissible once closure is required?*
+> *What gravitational field structures remain admissible once closure is required?*
 
 ---
 
 ### Closure as the organising principle
 
-Closure is defined as the requirement that the gravitational field account fully for its own conserved energy without external bookkeeping, auxiliary fields, or unbalanced degrees of freedom.
+Closure is defined as the requirement that the gravitational field account fully for its own conserved energy within the field description itself, without auxiliary bookkeeping, hidden regulators, or unconstrained functional freedom.
 
-When this requirement is imposed, many otherwise permissible constructions are eliminated.  
-The remaining admissible structures are fixed not by choice, but by exhaustion of alternatives.
+When closure is imposed, many formally covariant constructions are excluded. The remaining admissible structures are fixed not by choice, but by exhaustion of alternatives.
 
-Closure therefore acts as a **selection principle**, determining the internal structure of gravity independently of empirical detail.
-
----
-
-### Axiomatic minimality
-
-The theorem proceeds from a minimal set of axioms expressing:
-
-1. Classical covariance,
-2. Quadratic closure with finite conserved field norm,
-3. Orthogonal modes of response.
-
-These axioms are not specialised to any particular gravitational theory.  
-They express general structural requirements shared by classical field descriptions.
-
-All subsequent results follow from these axioms through elimination and classification.
+Closure therefore acts as a **selection principle**, determining the internal architecture of gravity independently of empirical detail.
 
 ---
 
-### Exhaustion of degrees of freedom
+### From structure to action
 
-A central result of the theorem is that symmetry reduction exhausts available degrees of freedom.
+Imposing classical covariance, quadratic closure with finite conserved energy, exhaustion of functional freedom under symmetry, and forced orthogonality uniquely fixes the admissible response structure of gravity.
 
-- In isolated vacuum regimes, closure and symmetry eliminate all residual freedom.
-- In non-vacuum, symmetry-reduced regimes, exactly one residual degree of freedom remains admissible.
-
-No further independent gravitational degrees of freedom are permitted without violating closure.
-
-This result is structural and does not depend on specific field equations.
+At the level of the action, this structure is most transparently displayed in **schematic form**.
 
 ---
 
-### Orthogonality as necessity
+### Schematic form of the closed action
 
-The theorem demonstrates that admissible gravitational responses must decompose into **orthogonal sectors**.
+Any admissible closed classical gravitational action must decompose as
 
-This orthogonality is not imposed as a postulate.  
-It is required to maintain closure while accommodating both local constraint and global redistribution.
+ $$
+\begin{array}{l}
+S
+=\int d^4x\,\sqrt{-g}\,
+\Big[
+\underbrace{\mathcal{L}_{\rm EH}(g)}_{\text{metric (geometric / vacuum-rigid) response}}
+\\
+\qquad
++\underbrace{\mathcal{L}_{\rm L}(\phi)}_{\text{longitudinal (constraint) sector}}
++\underbrace{\mathcal{L}_{\rm T}(A_\mu)}_{\text{transverse (redistributive) sector}}
++\underbrace{\mathcal{L}_{\rm cl}(\lambda,\phi,u^\mu)}_{\text{closure enforcement (conservation \ orthogonality)}}
+\Big]
++\underbrace{S_{\rm matter}[g,\psi]}_{\text{universal matter coupling}} .
+\end{array}
+ $$
 
-The familiar geometric sector of gravity emerges as one such response mode; additional response is permitted only where closure demands it.
+This decomposition is not assumed. Each sector is required by closure:
 
----
+- the metric sector enforces vacuum rigidity and unique exterior geometry,
+- the longitudinal sector enforces local gravitational balance,
+- the transverse sector realises the single admissible redistributive degree of freedom,
+- the closure enforcement sector imposes conservation and orthogonality without introducing independent degrees of freedom,
+- matter couples universally through the metric alone.
 
-### Regime classification
-
-The theorem classifies gravitational behaviour by regime:
-
-- **Vacuum regimes** admit no residual degrees of freedom and are rigid.
-- **Symmetry-reduced non-vacuum regimes** admit exactly one redistributive degree of freedom.
-
-This classification explains why gravitational behaviour appears universal in vacuum yet structured in extended systems, without invoking additional substances or arbitrary modifications.
-
----
-
-### Unique action
-
-Collecting the admissible structures, the theorem determines the **covariant gravitational action uniquely up to equivalence**, modulo boundary terms and field redefinitions.  
-Any omission renders the admissible action incomplete.  
-Any addition introduces forbidden independent degrees of freedom.
-
-The familiar Einstein–Hilbert sector is recovered as the unique vacuum expression of the closed gravitational field.
-
----
-
-### Downstream consequences
-
-Phenomenological scaling laws, cosmological behaviour, and diagnostic criteria do not enter the theorem itself.  
-They arise downstream as consequences of the classified structure under specific symmetry conditions.
-
-These consequences are treated in separate works and repositories.
+No additional sectors are admissible, and no sector may be omitted without violating closure.
 
 ---
 
-### How to read this repository
+### Explicit realisation
 
-- The **paper/** directory contains the canonical theorem text.
-- The **pages/** directory presents short technical summaries following the paper’s logical order.
-- The **site-pages/** directory contains curated summaries exported to the public website.
+Up to boundary terms, invertible local field redefinitions, and normalisation conventions, the unique admissible closed classical gravitational action takes the explicit form
 
-For phenomenology, diagnostics, and upstream field classification, see the linked companion repositories.
+ $$
+\begin{array}{l}
+S
+=\frac{1}{16\pi G}\int d^4x\,\sqrt{-g}\,R
+\\[0.5em]
+\qquad
++\frac{1}{2}\int d^4x\,\sqrt{-g}\,(\nabla\phi)^2
+-\frac{1}{4}\int d^4x\,\sqrt{-g}\,F_{\mu\nu}F^{\mu\nu}
+\\[0.5em]
+\qquad
++\int d^4x\,\sqrt{-g}\,\lambda\,\nabla_\mu(\phi\,u^\mu)
++S_{\mathrm{matter}}[g,\psi] .
+\end{array}
+ $$
+
+with
+
+ $$
+(\nabla\phi)^2 \equiv g^{\mu\nu}\nabla_\mu\phi\,\nabla_\nu\phi,
+\qquad
+F_{\mu\nu}=\nabla_\mu A_\nu-\nabla_\nu A_\mu,
+\qquad
+A_\mu = \phi\,u_\mu .
+ $$
+
+---
+
+### Uniqueness
+
+Under the requirements of closure, orthogonality, and vacuum rigidity, this action is fixed uniquely up to equivalence. Any modification introduces independent degrees of freedom or violates closure; any omission renders the admissible structure incomplete.
+
+---
+
+### Scope of what follows
+
+The pages in this repository unpack the structural reasoning leading to this result. Phenomenological consequences, regime-specific behaviour, and observational diagnostics are treated downstream and do not enter the theorem itself.
+
+Within its stated domain, the Ananke Theorem provides a complete and exact classification of admissible classical gravitational structure.
