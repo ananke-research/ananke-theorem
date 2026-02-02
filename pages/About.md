@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-permalink: /about/
+permalink: /old-pages/about/
 ---
 
 # About the Author
@@ -12,4 +12,4 @@ This work is conducted independently and is not affiliated with any university, 
 
 Critical analysis, technical scrutiny, and informed discussion of the work are openly invited.
 
-For the formal results and supporting material, see the [Papers & DOIs](/pages/papers/) and the project documentation throughout this site.
+For the formal results and supporting material, see the [Papers & DOIs](/old-pages/papers/) and the project documentation throughout this site.

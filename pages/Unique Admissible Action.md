@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Unique admissible action
-permalink: /pages/action/
+permalink: /old-pages/action/
 ---
 
 # Unique Admissible Action
@@ -166,7 +166,7 @@ $$
 
 ## Links
 
-- [Axioms of gravitational closure](/pages/axioms/)
-- [Structural diagnostics](/pages/diagnostics/)
-- [Papers and DOIs](/pages/papers/)
-- [Physics FAQ](/pages/physics-faq/)
+- [Axioms of gravitational closure](/old-pages/axioms/)
+- [Structural diagnostics](/old-pages/diagnostics/)
+- [Papers and DOIs](/old-pages/papers/)
+- [Physics FAQ](/old-pages/physics-faq/)

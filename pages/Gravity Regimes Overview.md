@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gravity regimes overview
-permalink: /pages/regimes/
+permalink: /old-pages/regimes/
 ---
 
 # Gravity regimes: overview
@@ -137,6 +137,6 @@ This classification sets the stage for the detailed regime analyses that follow.
 
 ## Next
 
-[Next: Vacuum regime (isolated exteriors)](/pages/regime-vacuum/)
+[Next: Vacuum regime (isolated exteriors)](/old-pages/regime-vacuum/)
 
-<small>See also: [Unique admissible action](/pages/action/)</small>
+<small>See also: [Unique admissible action](/old-pages/action/)</small>

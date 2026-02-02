@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Problem statement
-permalink: /pages/problem/
+permalink: /old-pages/problem/
 ---
 
 # Problem Statement
@@ -132,8 +132,8 @@ The Ananke Theorem is relevant because it addresses the upstream structural ques
 
 ## Links
 
-- [And General Relativity?](/pages/and-general-relativity/)
-- [Scope and domain of validity](/pages/scope/)
-- [Unique admissible action](/pages/action/)
-- [Falsifiability](/pages/falsifiability/)
-- [Papers and DOIs](/pages/papers/)
+- [And General Relativity?](/old-pages/and-general-relativity/)
+- [Scope and domain of validity](/old-pages/scope/)
+- [Unique admissible action](/old-pages/action/)
+- [Falsifiability](/old-pages/falsifiability/)
+- [Papers and DOIs](/old-pages/papers/)

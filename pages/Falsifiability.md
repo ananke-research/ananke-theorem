@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Falsifiability
-permalink: /pages/falsifiability/
+permalink: /old-pages/falsifiability/
 ---
 
 # Falsifiability
@@ -126,7 +126,7 @@ If closure holds, gravity is rigid in vacuum and admits exactly one conserved re
 
 ## Links
 
-- [Scope and domain of validity](/pages/scope/)
-- [Unique admissible action](/pages/action/)
-- [Structural diagnostics](/pages/diagnostics/)
-- [Papers and DOIs](/pages/papers/)
+- [Scope and domain of validity](/old-pages/scope/)
+- [Unique admissible action](/old-pages/action/)
+- [Structural diagnostics](/old-pages/diagnostics/)
+- [Papers and DOIs](/old-pages/papers/)

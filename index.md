@@ -75,5 +75,5 @@ Independent scrutiny, analysis, and critique are explicitly invited.
 
 ---
 
-**Next:** [Problem statement](/pages/problem/)  
+**Next:** [Problem statement](/old-pages/problem/)  
 **Return:** [Home](/)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Early universe implications
-permalink: /pages/no-big-bang/
+permalink: /old-pages/no-big-bang/
 ---
 
 # Early universe implications
@@ -143,6 +143,6 @@ The early universe is therefore constrained to be **non-singular in structure**,
 
 ## Next
 
-[Next: And General Relativity?](/pages/gr/)
+[Next: And General Relativity?](/old-pages/gr/)
 
-<small>See also: [Cosmological regime](/pages/regime-cosmology/)</small>
+<small>See also: [Cosmological regime](/old-pages/regime-cosmology/)</small>

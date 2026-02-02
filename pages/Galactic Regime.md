@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Galactic regime
-permalink: /pages/regime-galaxies/
+permalink: /old-pages/regime-galaxies/
 ---
 
 # Galactic regime (extended stationary systems)
@@ -174,6 +174,6 @@ The resulting galaxy scaling relations follow as algebraic consequences of closu
 
 ## Next
 
-[Next: Cosmological regime (homogeneous–isotropic systems)](/pages/regime-cosmology/)
+[Next: Cosmological regime (homogeneous–isotropic systems)](/old-pages/regime-cosmology/)
 
-<small>See also: [Gravity regimes overview](/pages/regimes/)</small>
+<small>See also: [Gravity regimes overview](/old-pages/regimes/)</small>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Equivalence principle
-permalink: /pages/equivalence-principle/
+permalink: /old-pages/equivalence-principle/
 ---
 
 # Deriving the equivalence principle (structurally)
@@ -175,6 +175,6 @@ Consequentially, ***it can be no other way.***
 
 ## Next
 
-[Next: Falsifiability](/pages/falsifiability/)
+[Next: Falsifiability](/old-pages/falsifiability/)
 
-<small>See also: [Unique admissible action](/pages/action/)</small>
+<small>See also: [Unique admissible action](/old-pages/action/)</small>

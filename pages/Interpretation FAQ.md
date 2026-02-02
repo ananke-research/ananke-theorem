@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Interpretation FAQ
-permalink: /pages/interpretation-faq/
+permalink: /old-pages/interpretation-faq/
 ---
 
 # Interpretation FAQ

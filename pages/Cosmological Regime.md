@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cosmological regime
-permalink: /pages/regime-cosmology/
+permalink: /old-pages/regime-cosmology/
 ---
 
 # Cosmological regime (homogeneous–isotropic systems)
@@ -151,6 +151,6 @@ The scaling relation is therefore **'Ananke'**: ***It can be no other way.***
 
 ## Next
 
-[Next: And General Relativity?](/pages/gr/)
+[Next: And General Relativity?](/old-pages/gr/)
 
-<small>See also: [Gravity regimes overview](/pages/regimes/)</small>
+<small>See also: [Gravity regimes overview](/old-pages/regimes/)</small>

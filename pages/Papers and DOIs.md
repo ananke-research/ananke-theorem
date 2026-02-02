@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Papers and DOIs
-permalink: /pages/papers/
+permalink: /old-pages/papers/
 ---
 
 # Papers and DOIs

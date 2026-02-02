@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The Cosmological Constant Problem
-permalink: /pages/cosmological-constant/
+permalink: /old-pages/cosmological-constant/
 ---
 
 # The cosmological constant problem
@@ -141,6 +141,6 @@ It is dissolved by classification.
 
 ---
 
-**Previous:** [Cosmological regime](/pages/regime-cosmology/)  
-**Next:** [No Big Bang](/pages/no-big-bang/)  
+**Previous:** [Cosmological regime](/old-pages/regime-cosmology/)  
+**Next:** [No Big Bang](/old-pages/no-big-bang/)  
 **Return:** [Home](/)

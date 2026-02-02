@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vacuum regime
-permalink: /pages/regime-vacuum/
+permalink: /old-pages/regime-vacuum/
 ---
 
 # Vacuum regime (isolated exteriors)
@@ -155,6 +155,6 @@ The Einstein–Hilbert vacuum is thus not a modelling choice but a structural ne
 
 ## Next
 
-[Next: Galactic regime (extended stationary systems)](/pages/regime-galaxies/)
+[Next: Galactic regime (extended stationary systems)](/old-pages/regime-galaxies/)
 
-<small>See also: [And General Relativity?](/pages/gr/)</small>
+<small>See also: [And General Relativity?](/old-pages/gr/)</small>

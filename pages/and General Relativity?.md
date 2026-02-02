@@ -1,7 +1,7 @@
 ---
 layout: default
 title: And General Relativity?
-permalink: /pages/gr/
+permalink: /old-pages/gr/
 ---
 
 # And General Relativity?
@@ -125,6 +125,6 @@ GR is therefore neither overthrown nor patched. It is **completed**—its domain
 
 ## Next
 
-[Next: Falsifiability](/pages/falsifiability/)
+[Next: Falsifiability](/old-pages/falsifiability/)
 
-<small>See also: [Vacuum regime](/pages/regime-vacuum/)</small>
+<small>See also: [Vacuum regime](/old-pages/regime-vacuum/)</small>

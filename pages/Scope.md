@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Scope and domain of validity
-permalink: /pages/scope/
+permalink: /old-pages/scope/
 ---
 
 # Scope and Domain of Validity
@@ -96,7 +96,7 @@ If the symmetry assumptions are materially broken, apparent violations can arise
 
 ## Links
 
-- [Axioms](/pages/axioms/)
-- [Unique Admissible Action](/pages/unique-admissible-action/)
-- [Physics FAQ](/pages/physics-faq/)
-- [Papers & DOIs](/pages/papers-&-DOIs/)
+- [Axioms](/old-pages/axioms/)
+- [Unique Admissible Action](/old-pages/unique-admissible-action/)
+- [Physics FAQ](/old-pages/physics-faq/)
+- [Papers & DOIs](/old-pages/papers-&-DOIs/)

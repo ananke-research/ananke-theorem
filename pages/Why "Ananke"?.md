@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Why “Ananke”?
-permalink: /pages/why-ananke/
+permalink: /old-pages/why-ananke/
 ---
 
 # Why “Ananke”?
@@ -56,7 +56,7 @@ If gravity is a classical field that closes under its own dynamics, then its adm
 
 ## Links
 
-- [Axioms](/pages/axioms/)
-- [Unique Admissible Action](/pages/action/)
-- [Scope & Domain of Validity](/pages/scope/)
-- [Papers and DOIs](/pages/papers/)
+- [Axioms](/old-pages/axioms/)
+- [Unique Admissible Action](/old-pages/action/)
+- [Scope & Domain of Validity](/old-pages/scope/)
+- [Papers and DOIs](/old-pages/papers/)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-permalink: /contact/
+permalink: /old-pages/contact/
 ---
 
 # Contact
@@ -11,4 +11,4 @@ For correspondence regarding the Ananke (Gravitational Closure) framework, inclu
 **Simon F. Gates**  
 Email: [simonfgates@gmail.com](mailto:simonfgates@gmail.com)
 
-For formal references, see the [Papers and DOIs](/pages/papers/).
+For formal references, see the [Papers and DOIs](/old-pages/papers/).
