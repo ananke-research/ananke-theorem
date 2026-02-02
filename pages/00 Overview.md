@@ -79,30 +79,15 @@ No additional sectors are admissible, and no sector may be omitted without viola
 
 Up to boundary terms, invertible local field redefinitions, and normalisation conventions, the unique admissible closed classical gravitational action takes the explicit form
 
- $$
-\begin{array}{l}
-S
-=\frac{1}{16\pi G}\int d^4x\,\sqrt{-g}\,R
-\\[0.5em]
-\qquad
-+\frac{1}{2}\int d^4x\,\sqrt{-g}\,(\nabla\phi)^2
--\frac{1}{4}\int d^4x\,\sqrt{-g}\,F_{\mu\nu}F^{\mu\nu}
-\\[0.5em]
-\qquad
-+\int d^4x\,\sqrt{-g}\,\lambda\,\nabla_\mu(\phi\,u^\mu)
-+S_{\mathrm{matter}}[g,\psi] .
-\end{array}
- $$
+$$ \begin{array}{l} S=\frac{1}{16\pi G}\int d^4x\,\sqrt{-g}\,R \\\\ \qquad+\frac{1}{2}\int d^4x\,\sqrt{-g}\,(\nabla\phi)^2 -\frac{1}{4}\int d^4x\,\sqrt{-g}\,F_{\mu\nu}F^{\mu\nu} +\int d^4x\,\sqrt{-g}\,\lambda\,\nabla_\mu(\phi\,u^\mu) +S_{\mathrm{matter}}[g,\psi]. \end{array} $$ with $$ (\nabla\phi)^2 \equiv g^{\mu\nu}\nabla_\mu\phi\,\nabla_\nu\phi, \qquad F_{\mu\nu}=\nabla_\mu A_\nu-\nabla_\nu A_\mu . $$
 
-with
+The redistributive potential is slaved to the constraint sector via
 
  $$
-(\nabla\phi)^2 \equiv g^{\mu\nu}\nabla_\mu\phi\,\nabla_\nu\phi,
-\qquad
-F_{\mu\nu}=\nabla_\mu A_\nu-\nabla_\nu A_\mu,
-\qquad
-A_\mu = \phi\,u_\mu .
+A_\mu = \phi\,u_\mu ,
  $$
+
+and does not constitute an independent field.
 
 ---
 
