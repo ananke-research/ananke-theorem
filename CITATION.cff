@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use or reference this work, please cite the Ananke (Gravitational Closure) Theorem as below."
+
+title: "The Ananke (Gravitational Closure) Theorem"
+type: article
+
+authors:
+  - family-names: Gates
+    given-names: Simon F.
+
+abstract: >
+  The Ananke (Gravitational Closure) Theorem is a structural classification
+  result for classical gravity. It determines the admissible internal structure
+  of gravitational fields under closure, establishing vacuum rigidity, uniqueness
+  of the residual degree of freedom in non-vacuum regimes, and uniqueness of the
+  covariant gravitational action up to equivalence.
+
+repository-code: "https://github.com/ananke-research/ananke-theorem"
+
+license: CC-BY-4.0
+
+keywords:
+  - classical gravity
+  - gravitational closure
+  - field theory
+  - vacuum rigidity
+  - action principle
+  - classification theorem
+
+preferred-citation:
+  type: article
+  title: "The Ananke (Gravitational Closure) Theorem"
+  authors:
+    - family-names: Gates
+      given-names: Simon F.
+  year: 2026
+  publisher: Zenodo
