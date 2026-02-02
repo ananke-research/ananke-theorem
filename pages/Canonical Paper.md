@@ -1,4 +1,4 @@
-## Papers and DOIs
+## Paper and DOI
 
 This repository is centred on a single canonical result: the **Ananke (Gravitational Closure) Theorem**.  
 The theorem is presented formally in the paper listed below. All other material in this repository is explanatory or navigational and introduces no new claims.
