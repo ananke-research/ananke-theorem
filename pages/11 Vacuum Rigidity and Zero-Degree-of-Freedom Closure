@@ -1,0 +1,72 @@
+## 11 — Vacuum rigidity and zero-degree-of-freedom closure
+
+> **PDF correspondence:** Sections 12–15 (including Theorem 1) of the Ananke (Gravitational Closure) Theorem (Zenodo v1.0)
+
+Having established the existence and uniqueness of the two-mode response structure, we now examine its behaviour in **isolated vacuum regimes**. These regimes represent the maximally constrained limit of the gravitational field, where closure enforces complete rigidity and eliminates all residual degrees of freedom.
+
+---
+
+### Isolated vacuum regimes
+
+Isolated vacuum regimes are characterised by:
+
+- absence of matter sources,
+- absence of external fluxes,
+- sufficient spacetime symmetry to exhaust functional freedom,
+- admissible boundary conditions ensuring finite conserved energy.
+
+Such regimes include exterior regions surrounding compact sources and asymptotically isolated systems. They constitute the empirical domain in which Newtonian gravity and vacuum General Relativity achieve exact success.
+
+The question addressed here is not whether gravity behaves rigidly in vacuum, but **why such rigidity is structurally unavoidable**.
+
+---
+
+### Behaviour of the redistributive mode in vacuum
+
+By construction, the redistributive mode governs internal organisation across extended spatial or temporal domains. In an isolated vacuum regime:
+
+- no internal domains exist to be organised,
+- no gradients of source density are present,
+- no admissible channels for redistribution exist.
+
+Any non-trivial excitation of the redistributive mode in vacuum would therefore constitute a propagating vacuum degree of freedom carrying finite energy independent of sources or boundary data. Such behaviour is incompatible with closure.
+
+---
+
+### Lemma — Vanishing of redistribution in vacuum
+
+**Lemma.**  
+In an isolated vacuum regime, the redistributive mode must vanish identically, or reduce to pure gauge.
+
+**Structural justification.**  
+A non-zero redistributive mode in vacuum would carry finite conserved energy not fixed by sources or boundary conditions. Under symmetry reduction, this energy could not be regulated by conservation, contradicting exhaustion of functional freedom. Closure therefore requires the redistributive mode to vanish in vacuum.
+
+This result is independent of field representation, dynamics, or geometric interpretation.
+
+---
+
+### Zero-degree-of-freedom closure and vacuum primacy
+
+With the redistributive mode excluded in vacuum, the gravitational field reduces entirely to the constraint sector. Under symmetry reduction, this sector admits no freedom beyond boundary conditions. Quadratic closure, orthogonality, and the absence of redistribution together exhaust all functional freedom.
+
+Vacuum configurations therefore possess **zero residual degrees of freedom**.
+
+Vacuum primacy follows as a structural consequence: the vacuum configuration represents the fully closed state of the gravitational field. Any non-vacuum behaviour must be continuous with, and subordinate to, this zero-degree-of-freedom limit.
+
+---
+
+### Theorem — Vacuum rigidity
+
+**Theorem 1 (Vacuum rigidity).**  
+In any isolated vacuum regime admitting sufficient spacetime symmetry, a closed classical gravitational field satisfying Axioms I–III possesses zero residual degrees of freedom. The gravitational field configuration is uniquely fixed by boundary conditions.
+
+**Proof (structural).**  
+By the preceding lemma, the redistributive mode vanishes identically in vacuum. The remaining constraint mode closes exactly under symmetry and admits no functional freedom beyond boundary data. With no admissible degrees of freedom remaining, the gravitational field is fully determined.
+
+---
+
+### Significance
+
+Vacuum rigidity is not a contingent property of particular field equations. It is a **necessary consequence of closure**. The redistributive sector is not an independent component of gravity, but a closure-preserving extension whose admissibility, magnitude, and form are fixed entirely by continuity with the zero-degree-of-freedom vacuum limit.
+
+With vacuum rigidity established, the structural consequences of this fully constrained regime can now be examined.
