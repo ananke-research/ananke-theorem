@@ -22,7 +22,7 @@ The Ananke Theorem is a structural classification result for classical gravity. 
 
 
 **PDF:**  
-→ `paper/Ananke_Theorem.pdf` (mirrored in this repository)
+→ → [Ananke_Theorem.pdf](../paper/Ananke_Theorem.pdf) (mirrored in this repository)
 
 ---
 
